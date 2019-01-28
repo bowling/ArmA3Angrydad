@@ -1,4 +1,18 @@
-
+	class ArmA3Gem
+	{
+		name = "Custom Gems";
+		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
+		items[] =
+		{
+			"custom_Ruby", 		// 1,200,000
+			"custom_Diamond", 	// 800,000
+			"custom_Obsidian", 	// 600,000
+			"custom_Emerald",	// 400,000
+			"custom_Topaz", 	// 200,000
+			"custom_Gold",		// 100,000
+			"custom_Silver"	// 50,000
+		};
+	};
 	class Arma3AssaultRifle
 	{
 		name = "Arma 3 Assault Rifle";

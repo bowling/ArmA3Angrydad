@@ -5,6 +5,15 @@
 //Quality 5 = Respect @ L5 (Set by Exile, 20000) DEFAULT
 //Quality 6 = Respect @ L6 (Set by Exile, 25000) DEFAULT
 
+/* Custom Gems 1 for 1 storage */
+class custom_Ruby																		{ quality = 1; price = 1200000; sellPrice = 1200000; };	// 1,200,000
+class custom_Diamond 																	{ quality = 1; price = 800000; sellPrice = 800000; };	// 800,000
+class custom_Obsidian 																	{ quality = 1; price = 600000; sellPrice = 600000; };	// 600,000
+class custom_Emerald																	{ quality = 1; price = 400000; sellPrice = 400000; };	// 400,000
+class custom_Topaz 																		{ quality = 1; price = 200000; sellPrice = 200000; };	// 200,000
+class custom_Gold																		{ quality = 1; price = 100000; sellPrice = 100000; };	// 100,000
+class custom_Silver																		{ quality = 1; price = 50000; sellPrice = 50000; };		// 50,000
+
 
 class SMG_03_black                                                                      { quality = 2; price = 2000; sellPrice = 1000; };
 class SMG_03_camo                                                                       { quality = 2; price = 2000; sellPrice = 1000; };
