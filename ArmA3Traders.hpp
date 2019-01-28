@@ -1,18 +1,3 @@
-	class ArmA3Gem
-	{
-		name = "Custom Gems";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
-		items[] =
-		{
-			"custom_Ruby", 		// 1,200,000
-			"custom_Diamond", 	// 800,000
-			"custom_Obsidian", 	// 600,000
-			"custom_Emerald",	// 400,000
-			"custom_Topaz", 	// 200,000
-			"custom_Gold",		// 100,000
-			"custom_Silver"	// 50,000
-		};
-	};
 	class Arma3AssaultRifle
 	{
 		name = "Arma 3 Assault Rifle";
@@ -241,6 +226,17 @@
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
 		items[] =
 		{
+			"NLAW_F",
+			"Vorona_HE",
+			"Vorona_HEAT",
+			"MRAWS_HEAT_F",
+			"MRAWS_HE",
+			"RPG7_F",
+			"RPG32_HE_F",
+			"RPG32_F",
+			"Titan_AP",
+			"Titan_AT",
+			"Titan_AA",
 			"100Rnd_65x39_caseless_mag",
 			"100Rnd_65x39_caseless_mag_Tracer",
 			"10Rnd_127x54_Mag",
@@ -308,47 +304,6 @@
 			"200Rnd_556x45_Box_Tracer_F",
 			"200Rnd_556x45_Box_Tracer_Red_F",
 			"10Rnd_9x21_Mag"
-		};
-	};
-	/* This is new */
-	class ArmA3RPGs{
-		name = "ArmA 3 RPG & Ammo";
-		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
-		items[] ={
-			"launch_O_Vorona_green_F",
-			"launch_O_Vorona_brown_F",
-			"launch_MRAWS_sand_rail_F",
-			"launch_MRAWS_sand_F",
-			"launch_MRAWS_green_rail_F",
-			"launch_MRAWS_green_F",
-			"launch_MRAWS_olive_rail_F",
-			"launch_MRAWS_olive_F",
-			"launch_RPG7_F",
-			"launch_RPG32_ghex_F",
-			"launch_RPG32_F",
-			"launch_O_Titan_short_ghex_F",
-			"launch_B_Titan_short_tna_F",
-			"launch_Titan_short_F",
-			"launch_O_Titan_short_F",
-			"launch_I_Titan_short_F",
-			"launch_B_Titan_short_F",
-			"launch_O_Titan_ghex_F",
-			"launch_B_Titan_tna_F",
-			"launch_Titan_F",
-			"launch_O_Titan_F",
-			"launch_I_Titan_F",
-			"launch_B_Titan_F",
-			"NLAW_F",
-			"Vorona_HE",
-			"Vorona_HEAT",
-			"MRAWS_HEAT_F",
-			"MRAWS_HE",
-			"RPG7_F",
-			"RPG32_HE_F",
-			"RPG32_F",
-			"Titan_AP",
-			"Titan_AT",
-			"Titan_AA"			
 		};
 	};
 
@@ -1291,7 +1246,14 @@
 			"optic_tws_mg",
 			"optic_Yorris",
 			"Rangefinder",
-			"ToolKit"
+			"ToolKit",
+			"custom_Ruby", 		// 1,200,000
+			"custom_Diamond", 	// 800,000
+			"custom_Obsidian", 	// 600,000
+			"custom_Emerald",	// 400,000
+			"custom_Topaz", 	// 200,000
+			"custom_Gold",		// 100,000
+			"custom_Silver"	// 50,000
 		};
 	};
 
@@ -1372,7 +1334,30 @@
 			"IEDUrbanBig_Remote_Mag",
 			"IEDUrbanSmall_Remote_Mag",
 			"SatchelCharge_Remote_Mag",
-			"SLAMDirectionalMine_Wire_Mag"
+			"SLAMDirectionalMine_Wire_Mag",
+			"launch_O_Vorona_green_F",
+			"launch_O_Vorona_brown_F",
+			"launch_MRAWS_sand_rail_F",
+			"launch_MRAWS_sand_F",
+			"launch_MRAWS_green_rail_F",
+			"launch_MRAWS_green_F",
+			"launch_MRAWS_olive_rail_F",
+			"launch_MRAWS_olive_F",
+			"launch_RPG7_F",
+			"launch_RPG32_ghex_F",
+			"launch_RPG32_F",
+			"launch_O_Titan_short_ghex_F",
+			"launch_B_Titan_short_tna_F",
+			"launch_Titan_short_F",
+			"launch_O_Titan_short_F",
+			"launch_I_Titan_short_F",
+			"launch_B_Titan_short_F",
+			"launch_O_Titan_ghex_F",
+			"launch_B_Titan_tna_F",
+			"launch_Titan_F",
+			"launch_O_Titan_F",
+			"launch_I_Titan_F",
+			"launch_B_Titan_F"
 		};
 	};
 	
