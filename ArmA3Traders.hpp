@@ -296,12 +296,12 @@
 			"10Rnd_9x21_Mag"
 		};
 	};
-	/* This is new */
+	/* To be inserted later
 	class ArmA3RPGs{
 		name = "ArmA 3 RPG & Ammo";
 		icon = "a3\ui_f\data\gui\Rsc\RscDisplayArsenal\uniform_ca.paa";
 		items[] ={
-			"launch_O_Vorona_green_F",
+					"launch_O_Vorona_green_F",
 			"launch_O_Vorona_brown_F",
 			"launch_MRAWS_sand_rail_F",
 			"launch_MRAWS_sand_F",
@@ -334,10 +334,10 @@
 			"RPG32_F",
 			"Titan_AP",
 			"Titan_AT",
-			"Titan_AA"			
+			"Titan_AA"	
 		};
 	};
-
+	*/
 	class Arma3Backpacks
 	{
 		name = "Arma 3 Backpacks";
@@ -1358,7 +1358,41 @@
 			"IEDUrbanBig_Remote_Mag",
 			"IEDUrbanSmall_Remote_Mag",
 			"SatchelCharge_Remote_Mag",
-			"SLAMDirectionalMine_Wire_Mag"
+			"SLAMDirectionalMine_Wire_Mag",
+			"launch_O_Vorona_green_F",
+			"launch_O_Vorona_brown_F",
+			"launch_MRAWS_sand_rail_F",
+			"launch_MRAWS_sand_F",
+			"launch_MRAWS_green_rail_F",
+			"launch_MRAWS_green_F",
+			"launch_MRAWS_olive_rail_F",
+			"launch_MRAWS_olive_F",
+			"launch_RPG7_F",
+			"launch_RPG32_ghex_F",
+			"launch_RPG32_F",
+			"launch_O_Titan_short_ghex_F",
+			"launch_B_Titan_short_tna_F",
+			"launch_Titan_short_F",
+			"launch_O_Titan_short_F",
+			"launch_I_Titan_short_F",
+			"launch_B_Titan_short_F",
+			"launch_O_Titan_ghex_F",
+			"launch_B_Titan_tna_F",
+			"launch_Titan_F",
+			"launch_O_Titan_F",
+			"launch_I_Titan_F",
+			"launch_B_Titan_F",
+			"NLAW_F",
+			"Vorona_HE",
+			"Vorona_HEAT",
+			"MRAWS_HEAT_F",
+			"MRAWS_HE",
+			"RPG7_F",
+			"RPG32_HE_F",
+			"RPG32_F",
+			"Titan_AP",
+			"Titan_AT",
+			"Titan_AA"
 		};
 	};
 	
