@@ -807,52 +807,60 @@ class CUP_O_BMP2_ZU_CSAT                                        				{ quality = 
 class CUP_O_BMP2_TKA                                            				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_O_BMP2_ZU_TKA                                         				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_O_BMP2_RU                                             				{ quality = 6; price = 500000; sellPrice = 250000; };
+class CUP_I_BMP2_UN                                             				{ quality = 6; price = 500000; sellPrice = 250000; };   
+class CUP_I_BMP2_NAPA                                           				{ quality = 6; price = 500000; sellPrice = 250000; };  
 
 /* BMP */
-class CUP_B_BMP_HQ_CDF                                          				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_BMP_HQ_CZ                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_BMP_HQ_CZ_Des                                       				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BMP1_TKA                                       						{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BMP1P_TKA                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BMP_HQ_TKA                                          				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BMP_HQ_RU                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BMP_HQ_CHDKZ                                        				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BMP_HQ_sla                                          				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BMP1_CSAT                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BMP1P_CSAT                                          				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BMP_HQ_CSAT                                         				{ quality = 6; price = 500000; sellPrice = 250000; };
+class CUP_B_BMP_HQ_CDF                                          				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_B_BMP_HQ_CZ                                           				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_B_BMP_HQ_CZ_Des                                       				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BMP_HQ_TKA                                          				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BMP_HQ_RU                                           				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BMP_HQ_CHDKZ                                        				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BMP_HQ_sla                                          				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BMP_HQ_CSAT                                         				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_I_BMP_HQ_UN                                           				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun                      
+class CUP_I_BMP_HQ_NAPA                                         				{ quality = 3; price = 50000; sellPrice = 25000; }; // Machine Gun    
+
+class CUP_O_BMP1_TKA                                       						{ quality = 4; price = 100000; sellPrice = 50000; }; // Missiles
+class CUP_O_BMP1P_TKA                                           				{ quality = 4; price = 100000; sellPrice = 50000; }; // Missiles
+class CUP_O_BMP1_CSAT                                           				{ quality = 4; price = 100000; sellPrice = 50000; }; // Missiles
+class CUP_O_BMP1P_CSAT                                          				{ quality = 4; price = 100000; sellPrice = 50000; }; // Missiles
+class CUP_I_BMP1_TK_GUE                                         				{ quality = 3; price = 100000; sellPrice = 50000; }; // Missiles
 
 /* BRDM2 */
-class CUP_B_BRDM2_CDF                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_BRDM2_ATGM_CDF                                      				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_BRDM2_HQ_CDF                                        				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_BRDM2_CZ                                            				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_BRDM2_CZ_Des                                        				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_BRDM2_HQ_CZ                                         				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_BRDM2_HQ_Des                                        				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_CHDKZ                                         				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_ATGM_CHDKZ                                    				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_HQ_CHDKZ                                      				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_SLA                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_ATGM_SLA                                      				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_HQ_SLA                                        				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_CSAT                                          				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_ATGM_CSAT                                     				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_HQ_CSAT                                       				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_RUS                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_ATGM_RUS                                      				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_HQ_RUS                                        				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_TKA                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_ATGM_TKA                                      				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_O_BRDM2_HQ_TKA                                        				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_I_BRDM2_NAPA                                          				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BRDM2_ATGM_NAPA                                     				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BRDM2_HQ_NAPA                                       				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BRDM2_TK_Gue                                        				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BRDM2_ATGM_TK_Gue                                   				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BRDM2_HQ_TK_Gue                                     				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BRDM2_UN                                            				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BRDM2_HQ_UN                                         				{ quality = 6; price = 500000; sellPrice = 250000; };
+class CUP_I_BRDM2_HQ_TK_Gue                                     				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_I_BRDM2_HQ_UN                                         				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun     
+class CUP_I_BRDM2_HQ_NAPA                                       				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BRDM2_HQ_TKA                                        				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BRDM2_HQ_RUS                                        				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BRDM2_HQ_CSAT                                       				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BRDM2_HQ_SLA                                        				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_O_BRDM2_HQ_CHDKZ                                      				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_B_BRDM2_HQ_Des                                        				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_B_BRDM2_HQ_CZ                                         				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+class CUP_B_BRDM2_HQ_CDF                                        				{ quality = 6; price = 50000; sellPrice = 25000; }; // Machine Gun
+
+class CUP_B_BRDM2_CDF                                           				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT
+class CUP_B_BRDM2_CZ                                            				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT
+class CUP_B_BRDM2_CZ_Des                                        				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT
+class CUP_O_BRDM2_CHDKZ                                         				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT
+class CUP_I_BRDM2_NAPA                                          				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT  
+class CUP_I_BRDM2_TK_Gue                                        				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT 
+class CUP_O_BRDM2_TKA                                           				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT
+class CUP_O_BRDM2_RUS                                           				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT
+class CUP_O_BRDM2_CSAT                                          				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT
+class CUP_O_BRDM2_SLA                                           				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT
+class CUP_I_BRDM2_UN                                            				{ quality = 6; price = 150000; sellPrice = 75000; }; // KPVT
+
+class CUP_B_BRDM2_ATGM_CDF                                      				{ quality = 6; price = 250000; sellPrice = 125000; }; // ATGM
+class CUP_O_BRDM2_ATGM_CHDKZ                                    				{ quality = 6; price = 250000; sellPrice = 125000; }; // ATGM
+class CUP_O_BRDM2_ATGM_SLA                                      				{ quality = 6; price = 250000; sellPrice = 125000; }; // ATGM
+class CUP_O_BRDM2_ATGM_CSAT                                     				{ quality = 6; price = 250000; sellPrice = 125000; }; // ATGM
+class CUP_O_BRDM2_ATGM_RUS                                      				{ quality = 6; price = 250000; sellPrice = 125000; }; // ATGM
+class CUP_O_BRDM2_ATGM_TKA                                      				{ quality = 6; price = 250000; sellPrice = 125000; }; // ATGM
+class CUP_I_BRDM2_ATGM_NAPA                                     				{ quality = 6; price = 250000; sellPrice = 125000; }; // ATGM    
+class CUP_I_BRDM2_ATGM_TK_Gue                                   				{ quality = 6; price = 250000; sellPrice = 125000; }; // ATGM           
 
 /* T72 */
 class CUP_B_T72_CDF                                             				{ quality = 6; price = 500000; sellPrice = 250000; };
@@ -880,53 +888,77 @@ class CUP_B_LAV25_USMC                                          				{ quality = 
 class CUP_B_LAV25M240_USMC                                      				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_LAV25_HQ_USMC                                       				{ quality = 6; price = 500000; sellPrice = 250000; };
 
-/* M1A1 + M1A2 */
-class CUP_B_M1A1_Woodland_US_Army                               				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1A1_Woodland_USMC                                  				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1A1_DES_USMC                                       				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1A1_DES_US_Army                                    				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1A2_TUSK_MG_US_Army                                				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1A2_TUSK_MG_USMC                                   				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1A2_TUSK_MG_DES_US_Army                            				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1A2_TUSK_MG_DES_USMC                               				{ quality = 6; price = 500000; sellPrice = 250000; };
+/* M1A1 + M1A2 -- Done */
+class CUP_B_M1A1_Woodland_US_Army                               				{ quality = 5; price = 500000; sellPrice = 250000; };
+class CUP_B_M1A1_Woodland_USMC                                  				{ quality = 5; price = 500000; sellPrice = 250000; };
+class CUP_B_M1A1_DES_USMC                                       				{ quality = 5; price = 500000; sellPrice = 250000; };
+class CUP_B_M1A1_DES_US_Army                                    				{ quality = 5; price = 500000; sellPrice = 250000; };
+class CUP_B_M1A2_TUSK_MG_US_Army                                				{ quality = 5; price = 500000; sellPrice = 250000; };
+class CUP_B_M1A2_TUSK_MG_USMC                                   				{ quality = 5; price = 500000; sellPrice = 250000; };
+class CUP_B_M1A2_TUSK_MG_DES_US_Army                            				{ quality = 5; price = 500000; sellPrice = 250000; };
+class CUP_B_M1A2_TUSK_MG_DES_USMC                               				{ quality = 5; price = 500000; sellPrice = 250000; };
+
+/* M1126 -- Done */
+class CUP_B_M1126_ICV_M2_Desert                                 				{ quality = 5; price = 100000; sellPrice = 50000; }; // M1126 -- M2
+class CUP_B_M1126_ICV_M2_Desert_Slat                            				{ quality = 5; price = 125000; sellPrice = 50000; }; // M1126 -- M2 + EA
+class CUP_B_M1126_ICV_M2_Woodland                               				{ quality = 5; price = 100000; sellPrice = 50000; }; // M1126 -- M2
+class CUP_B_M1126_ICV_M2_Woodland_Slat                          				{ quality = 5; price = 125000; sellPrice = 50000; }; // M1126 -- M2 + EA
+class CUP_B_M1126_ICV_MK19_Desert                               				{ quality = 5; price = 150000; sellPrice = 75000; }; // M1126 -- MK19
+class CUP_B_M1126_ICV_MK19_Desert_Slat                          				{ quality = 5; price = 175000; sellPrice = 75000; }; // M1126 -- MK19 + EA
+class CUP_B_M1126_ICV_MK19_Woodland                             				{ quality = 5; price = 150000; sellPrice = 75000; }; // M1126 -- MK19
+class CUP_B_M1126_ICV_MK19_Woodland_Slat                        				{ quality = 5; price = 175000; sellPrice = 75000; }; // M1126 -- MK19 + EA
+
+/* M1128 -- Done */
+class CUP_B_M1128_MGS_Desert                                    				{ quality = 5; price = 500000; sellPrice = 250000; }; // Stryker MGS
+class CUP_B_M1128_MGS_Desert_Slat                               				{ quality = 5; price = 525000; sellPrice = 250000; }; // Stryker MGS + EA
+class CUP_B_M1128_MGS_Woodland                                  				{ quality = 5; price = 500000; sellPrice = 250000; }; // Stryker MGS
+class CUP_B_M1128_MGS_Woodland_Slat                             				{ quality = 5; price = 525000; sellPrice = 250000; }; // Stryker MGS + EA
+
+/* M1129 -- Done */
+class CUP_B_M1129_MC_MK19_Desert                                				{ quality = 5; price = 600000; sellPrice = 300000; }; // M1129 -- MK19 + Mortar
+class CUP_B_M1129_MC_MK19_Desert_Slat                           				{ quality = 5; price = 625000; sellPrice = 300000; }; // M1129 -- MK19 + Mortar + EA
+class CUP_B_M1129_MC_MK19_Woodland                              				{ quality = 5; price = 600000; sellPrice = 300000; }; // M1129 -- MK19 + Mortar
+class CUP_B_M1129_MC_MK19_Woodland_Slat                         				{ quality = 5; price = 625000; sellPrice = 300000; }; // M1129 -- MK19 + Mortar + EA
+
+/* M1130 -- Done */
+class CUP_B_M1130_CV_M2_Desert                                  				{ quality = 5; price = 100000; sellPrice = 50000; }; // M1130 -- M2
+class CUP_B_M1130_CV_M2_Desert_Slat                             				{ quality = 5; price = 125000; sellPrice = 50000; }; // M1130 -- M2 + EA
+class CUP_B_M1130_CV_M2_Woodland                                				{ quality = 5; price = 100000; sellPrice = 50000; }; // M1130 -- M2
+class CUP_B_M1130_CV_M2_Woodland_Slat                           				{ quality = 5; price = 125000; sellPrice = 50000; }; // M1130 -- M2 EA
+
+/* M1135 -- Done */
+class CUP_B_M1135_ATGMV_Desert                                  				{ quality = 5; price = 250000; sellPrice = 125000; }; // ATGM G->G missile
+class CUP_B_M1135_ATGMV_Desert_Slat                             				{ quality = 5; price = 250000; sellPrice = 125000; }; // ATGM G->G missile + EA
+class CUP_B_M1135_ATGMV_Woodland                                				{ quality = 5; price = 250000; sellPrice = 125000; }; // ATGM G->G missile 
+class CUP_B_M1135_ATGMV_Woodland_Slat                           				{ quality = 5; price = 250000; sellPrice = 125000; }; // ATGM G->G missile + EA
+
+/* FV510 Warrior -- Done */
+class CUP_B_FV510_GB_D_SLAT                                     				{ quality = 5; price = 375000; sellPrice = 175000; };
+class CUP_B_FV510_GB_W_SLAT                                     				{ quality = 5; price = 375000; sellPrice = 175000; };
+class CUP_B_FV510_GB_D                                          				{ quality = 5; price = 350000; sellPrice = 175000; };
+class CUP_B_FV510_GB_W                                          				{ quality = 5; price = 350000; sellPrice = 175000; };
+
+
+
+
+
+
 
 
 
 class CUP_B_BTR60_CDF                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
 
-class CUP_B_M1126_ICV_M2_Desert                                 				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1126_ICV_M2_Desert_Slat                            				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1126_ICV_M2_Woodland                               				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1126_ICV_M2_Woodland_Slat                          				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1126_ICV_MK19_Desert                               				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1126_ICV_MK19_Desert_Slat                          				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1126_ICV_MK19_Woodland                             				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1126_ICV_MK19_Woodland_Slat                        				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1130_CV_M2_Desert                                  				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1130_CV_M2_Desert_Slat                             				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1130_CV_M2_Woodland                                				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1130_CV_M2_Woodland_Slat                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1129_MC_MK19_Desert                                				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1129_MC_MK19_Desert_Slat                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1129_MC_MK19_Woodland                              				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1129_MC_MK19_Woodland_Slat                         				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1135_ATGMV_Desert                                  				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1135_ATGMV_Desert_Slat                             				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1135_ATGMV_Woodland                                				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1135_ATGMV_Woodland_Slat                           				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1128_MGS_Desert                                    				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1128_MGS_Desert_Slat                               				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1128_MGS_Woodland                                  				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1128_MGS_Woodland_Slat                             				{ quality = 6; price = 500000; sellPrice = 250000; };
+
+
+
+
+
 class CUP_B_AAV_USMC                                            				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_FV432_Bulldog_GB_D                                  				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_FV432_Bulldog_GB_W                                  				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_FV432_Bulldog_GB_D_RWS                              				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_FV432_Bulldog_GB_W_RWS                              				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_FV510_GB_D_SLAT                                     				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_FV510_GB_W_SLAT                                     				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_FV510_GB_D                                          				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_FV510_GB_W                                          				{ quality = 6; price = 500000; sellPrice = 250000; };
+
 class CUP_B_M113_USA                                            				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_M163_USA                                            				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_MCV80_GB_D_SLAT                                     				{ quality = 6; price = 500000; sellPrice = 250000; };
@@ -967,11 +999,7 @@ class CUP_O_ZSU23_ChDKZ                                         				{ quality = 
 class CUP_O_ZSU23_TK                                            				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_O_ZSU23_SLA                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_O_ZSU23_CSAT                                          				{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_I_BMP1_TK_GUE                                         				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BMP2_UN                                             				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BMP_HQ_UN                                           				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BMP2_NAPA                                           				{ quality = 6; price = 500000; sellPrice = 250000; };            
-class CUP_I_BMP_HQ_NAPA                                         				{ quality = 6; price = 500000; sellPrice = 250000; };            
+        
             
             
 class CUP_I_BTR40_MG_TKG                                        				{ quality = 6; price = 500000; sellPrice = 250000; };            
