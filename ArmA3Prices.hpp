@@ -5,15 +5,6 @@
 //Quality 5 = Respect @ L5 (Set by Exile, 20000) DEFAULT
 //Quality 6 = Respect @ L6 (Set by Exile, 25000) DEFAULT
 
-/* Custom Gems 1 for 1 storage */
-class custom_Ruby																		{ quality = 1; price = 1200000; sellPrice = 1200000; };	// 1,200,000
-class custom_Diamond 																	{ quality = 1; price = 800000; sellPrice = 800000; };	// 800,000
-class custom_Obsidian 																	{ quality = 1; price = 600000; sellPrice = 600000; };	// 600,000
-class custom_Emerald																	{ quality = 1; price = 400000; sellPrice = 400000; };	// 400,000
-class custom_Topaz 																		{ quality = 1; price = 200000; sellPrice = 200000; };	// 200,000
-class custom_Gold																		{ quality = 1; price = 100000; sellPrice = 100000; };	// 100,000
-class custom_Silver																		{ quality = 1; price = 50000; sellPrice = 50000; };		// 50,000
-
 
 class SMG_03_black                                                                      { quality = 2; price = 2000; sellPrice = 1000; };
 class SMG_03_camo                                                                       { quality = 2; price = 2000; sellPrice = 1000; };
@@ -1328,84 +1319,120 @@ class Rangefinder                                                               
 class ToolKit                                                                   { quality = 1; price = 30; sellPrice = 15; };
 class Zasleh2                                                                   { quality = 1; price = 30; sellPrice = 15; };
 
-// Tanks -- Not Complete
+// Tanks -- Complete
+/* VEHICLES LIST 
+* (O_*) https://community.bistudio.com/wiki/Arma_3_CfgVehicles_EAST
+* (B_*) https://community.bistudio.com/wiki/Arma_3_CfgVehicles_WEST
+* (I_*) https://community.bistudio.com/wiki/Arma_3_CfgVehicles_GUER
+* (C_*) https://community.bistudio.com/wiki/Arma_3_CfgVehicles_CIV 
+*/
+       
+            
+class B_APC_Wheeled_01_cannon_F	                                                 { quality = 5; price = 300000; sellPrice = 150000; }; // Marshall
+class B_T_APC_Wheeled_01_cannon_F	                                             { quality = 5; price = 300000; sellPrice = 150000; }; // Marshall                    
+class B_MBT_01_arty_F	                                                         { quality = 5; price = 850000; sellPrice = 425000; }; // Scorcher               
+class I_APC_tracked_03_cannon_F	                                                 { quality = 5; price = 300000; sellPrice = 150000; }; // FV-720 Morca
+class I_Truck_02_MRL_F	                                                         { quality = 5; price = 850000; sellPrice = 425000; }; // Zamak MRL
+class I_MBT_03_cannon_F	                                                         { quality = 5; price = 500000; sellPrice = 25000; }; // MBT52 Kuma  (120mm)
 
-class B_APC_Tracked_01_AA_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class B_T_APC_Tracked_01_AA_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; }; 
-class B_APC_Tracked_01_rcws_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };           
-class B_APC_Tracked_01_CRV_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };             
-class B_APC_Wheeled_01_cannon_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };            
-class B_APC_Wheeled_03_cannon_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };          
-class B_AFV_Wheeled_01_cannon_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };            
-class B_AFV_Wheeled_01_up_cannon_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };       
-class B_T_APC_Tracked_01_CRV_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };         
-class B_T_APC_Tracked_01_rcws_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };           
-class B_T_APC_Wheeled_01_cannon_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };           
-class B_T_AFV_Wheeled_01_cannon_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_AFV_Wheeled_01_up_cannon_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_MBT_01_arty_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_MBT_01_mlrs_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_MBT_01_arty_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_MBT_01_mlrs_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_MBT_01_cannon_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_MBT_01_TUSK_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_MBT_01_cannon_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_MBT_01_TUSK_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class I_LT_01_AA_F	                       										 { quality = 5; price = 5000000; sellPrice = 250000; };                                              
-class O_APC_Tracked_02_AA_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_APC_Tracked_02_AA_ghex_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_APC_tracked_03_cannon_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_APC_Wheeled_03_cannon_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_APC_Tracked_02_cannon_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_APC_Wheeled_02_rcws_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_APC_Wheeled_02_rcws_v2_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_APC_Tracked_02_cannon_ghex_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_APC_Wheeled_02_rcws_ghex_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_APC_Wheeled_02_rcws_v2_ghex_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Truck_02_MRL_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_MBT_02_arty_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_MBT_02_arty_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_MBT_03_cannon_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_LT_01_AT_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_LT_01_scout_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_LT_01_cannon_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_MBT_02_cannon_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_MBT_04_cannon_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_MBT_04_command_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_MBT_02_cannon_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_MBT_04_cannon_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_MBT_04_command_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
+
+/* M4 + M5 */
+class B_MBT_01_mlrs_F	                                                         { quality = 5; price = 850000; sellPrice = 425000; }; // M5 Sandstorm               
+class B_T_MBT_01_arty_F	                                                         { quality = 5; price = 650000; sellPrice = 325000; }; // M4 Scorcher             
+class B_T_MBT_01_mlrs_F	                                                         { quality = 5; price = 850000; sellPrice = 425000; }; // M5 Sandstorm  
+
+/* Tigris */
+class O_APC_Tracked_02_AA_F	                                                     { quality = 5; price = 650000; sellPrice = 325000; }; // ZSU-39 Tigris
+class O_T_APC_Tracked_02_AA_ghex_F	                                             { quality = 5; price = 650000; sellPrice = 325000; }; // ZSU-39 Tigris
+
+/* Kamysh */
+class O_APC_Tracked_02_cannon_F	                                                 { quality = 5; price = 650000; sellPrice = 325000; }; // BTR-K Kamysh
+class O_T_APC_Tracked_02_cannon_ghex_F	                                         { quality = 5; price = 650000; sellPrice = 325000; }; // BTR-K Kamysh
+
+/* Sochor */
+class O_MBT_02_arty_F	                                                         { quality = 5; price = 850000; sellPrice = 425000; }; // 2S9 Sochor
+class O_T_MBT_02_arty_ghex_F	                                                 { quality = 5; price = 850000; sellPrice = 425000; }; // 2S9 Sochor
+
+/* IFV-6X */
+class B_APC_Tracked_01_AA_F	                                                     { quality = 5; price = 300000; sellPrice = 150000; }; // IFV-6a Cheetah
+class B_T_APC_Tracked_01_AA_F	                                                 { quality = 5; price = 300000; sellPrice = 150000; }; // IFV-6a Cheetah 
+class B_APC_Tracked_01_rcws_F	                                                 { quality = 5; price = 300000; sellPrice = 150000; }; // IFV-6c Panther  
+class B_T_APC_Tracked_01_rcws_F	                                                 { quality = 5; price = 300000; sellPrice = 150000; }; // IFV-6c Panther
+
+/* Bobcat */
+class B_APC_Tracked_01_CRV_F	                                                 { quality = 5; price = 300000; sellPrice = 150000; }; // BOBCAT  
+class B_T_APC_Tracked_01_CRV_F	                                                 { quality = 5; price = 300000; sellPrice = 150000; }; // Bobcat 
+
+/* Gorgon */
+class B_APC_Wheeled_03_cannon_F	                                                 { quality = 5; price = 650000; sellPrice = 325000; }; // Gorgon   
+class I_APC_Wheeled_03_cannon_F	                                                 { quality = 5; price = 650000; sellPrice = 325000; }; // Gorgon 
+
+/* M2A1 + M2A4 */
+class B_MBT_01_cannon_F	                                                         { quality = 5; price = 750000; sellPrice = 375000; }; // M2A1 Slammer 
+class B_T_MBT_01_cannon_F	                                                     { quality = 5; price = 750000; sellPrice = 375000; }; // M2A1 Slammer            
+class B_MBT_01_TUSK_F	                                                         { quality = 5; price = 850000; sellPrice = 425000; }; // M2A4 Slammer UP               
+class B_T_MBT_01_TUSK_F	                                                         { quality = 5; price = 850000; sellPrice = 425000; }; // M2A4 Slammer UP 
+
+/* Nyx */
+class I_LT_01_AT_F	                                                             { quality = 5; price = 850000; sellPrice = 425000; }; // AWC 301 Nyx AT
+class I_LT_01_AA_F	                       										 { quality = 5; price = 850000; sellPrice = 425000; }; // AWC 302 Nyx AA
+class I_LT_01_scout_F	                                                         { quality = 5; price = 850000; sellPrice = 425000; }; // AWC 303 Nyx (Recon/Radar)
+class I_LT_01_cannon_F	                                                         { quality = 5; price = 650000; sellPrice = 325000; }; // AWC 303 Nyx (Autocannon)
+
+/* MSE-3 Marid */
+class O_APC_Wheeled_02_rcws_F	                                                 { quality = 5; price = 350000; sellPrice = 175000; }; // MSE-3 Marid
+class O_APC_Wheeled_02_rcws_v2_F	                                             { quality = 5; price = 350000; sellPrice = 175000; }; // MSE-3 Marid
+class O_T_APC_Wheeled_02_rcws_ghex_F	                                         { quality = 5; price = 350000; sellPrice = 175000; }; // MSE-3 Marid
+class O_T_APC_Wheeled_02_rcws_v2_ghex_F	                                         { quality = 5; price = 350000; sellPrice = 175000; }; // MSE-3 Marid
+
+/* T-100 */
+class O_MBT_02_cannon_F	                                                         { quality = 5; price = 500000; sellPrice = 250000; }; // T-100 Varsuk
+class O_T_MBT_02_cannon_ghex_F	                                                 { quality = 5; price = 500000; sellPrice = 250000; }; // T-100 Varsuk
+
+/* T-140 */
+class O_MBT_04_cannon_F	                                                         { quality = 5; price = 500000; sellPrice = 250000; }; // T-140 Angara (125mm)
+class O_MBT_04_command_F	                                                     { quality = 5; price = 450000; sellPrice = 275000; }; // T-140 Angara (Auto Cannon)
+class O_T_MBT_04_cannon_F	                                                     { quality = 5; price = 500000; sellPrice = 250000; }; // T-140 Angara (125mm)
+class O_T_MBT_04_command_F	                                                     { quality = 5; price = 450000; sellPrice = 275000; }; // T-140 Angara (Auto Cannon)
+
+/* Rhino MGS */
+class B_T_AFV_Wheeled_01_cannon_F	                                             { quality = 5; price = 500000; sellPrice = 250000; }; // Rhino MGS  
+class B_AFV_Wheeled_01_cannon_F	                                                 { quality = 5; price = 500000; sellPrice = 250000; }; // Rhino MGS             
+class B_T_AFV_Wheeled_01_up_cannon_F	                                         { quality = 5; price = 500000; sellPrice = 250000; }; // Rhino MGS UP
+class B_AFV_Wheeled_01_up_cannon_F	                                             { quality = 5; price = 500000; sellPrice = 250000; }; // Rhino MGS UP 
+
+
                                                                                 
-// Boats -- Not Complete                                                                        
+// Boats -- Complete                                                                        
                                                                                 
-class B_G_Boat_Transport_01_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_G_Boat_Transport_02_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_Boat_Armed_01_minigun_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Boat_Transport_01_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Lifeboat	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_T_Boat_Armed_01_minigun_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_Boat_Transport_01_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_Lifeboat	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };               
-class I_Boat_Armed_01_minigun_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Boat_Transport_01_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_G_Boat_Transport_01_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Boat_Transport_01_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_G_Boat_Transport_02_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Boat_Transport_02_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Boat_Armed_01_hmg_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Boat_Transport_01_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Lifeboat	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Boat_Armed_01_hmg_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Boat_Transport_01_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Lifeboat	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_G_Boat_Transport_01_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_G_Boat_Transport_02_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Rubberboat	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Boat_Civil_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Boat_Civil_01_rescue_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Boat_Civil_01_police_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Boat_Transport_02_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Scooter_Transport_01_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
+class B_G_Boat_Transport_01_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; };                
+class B_G_Boat_Transport_02_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; };               
+class B_Boat_Armed_01_minigun_F	                                                 { quality = 5; price = 12500; sellPrice = 6000; };              
+class B_Boat_Transport_01_F	                                                     { quality = 5; price = 5000; sellPrice = 2500; };              
+class B_Lifeboat	                                                             { quality = 5; price = 5000; sellPrice = 2500; };                 
+class B_T_Boat_Armed_01_minigun_F	                                             { quality = 5; price = 12500; sellPrice = 6000; };                
+class B_T_Boat_Transport_01_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; };                
+class B_T_Lifeboat	                                                             { quality = 5; price = 5000; sellPrice = 2500; };               
+class I_Boat_Armed_01_minigun_F	                                                 { quality = 5; price = 12500; sellPrice = 6000; };
+class I_Boat_Transport_01_F	                                                     { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class I_G_Boat_Transport_01_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class I_C_Boat_Transport_01_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class I_G_Boat_Transport_02_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class I_C_Boat_Transport_02_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class O_Boat_Armed_01_hmg_F	                                                     { quality = 5; price = 25000; sellPrice = 12500; };
+class O_Boat_Transport_01_F	                                                     { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class O_Lifeboat	                                                             { quality = 5; price = 5000; sellPrice = 2500; };
+class O_T_Boat_Armed_01_hmg_F	                                                 { quality = 5; price = 25000; sellPrice = 12500; }; 
+class O_T_Boat_Transport_01_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class O_T_Lifeboat	                                                             { quality = 5; price = 5000; sellPrice = 2500; };
+class O_G_Boat_Transport_01_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class O_G_Boat_Transport_02_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class C_Rubberboat	                                                             { quality = 5; price = 5000; sellPrice = 2500; };
+class C_Boat_Civil_01_F	                                                         { quality = 5; price = 5000; sellPrice = 2500; };
+class C_Boat_Civil_01_rescue_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; };
+class C_Boat_Civil_01_police_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; };
+class C_Boat_Transport_02_F	                                                     { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
+class C_Scooter_Transport_01_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
                                                                                
 // Cars -- Not Complete                                                                       
                                                                               
@@ -1426,14 +1453,14 @@ class B_MRAP_01_F	                                                             {
 class B_MRAP_01_gmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
 class B_MRAP_01_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
 class B_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_Truck_01_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_Truck_01_covered_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_Truck_01_mover_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_Truck_01_box_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_Truck_01_Repair_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_Truck_01_ammo_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Truck_01_fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Truck_01_medical_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };               
+class B_Truck_01_transport_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  // 50k/25k               
+class B_Truck_01_covered_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  // 25k/12.5k              
+class B_Truck_01_mover_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  // 50k/25k                
+class B_Truck_01_box_F	                                                         { quality = 6; price = 100000; sellPrice = 50000; };  // 50k/25k              
+class B_Truck_01_Repair_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };                
+class B_Truck_01_ammo_F	                                                         { quality = 6; price = 100000; sellPrice = 50000; };              
+class B_Truck_01_fuel_F	                                                         { quality = 6; price = 100000; sellPrice = 50000; };              
+class B_Truck_01_medical_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  // Med -- 25/12.5              
 class B_LSV_01_armed_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };               
 class B_LSV_01_AT_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };              
 class B_LSV_01_unarmed_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                 
@@ -1458,15 +1485,15 @@ class B_T_MRAP_01_F	                                                            
 class B_T_MRAP_01_gmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
 class B_T_MRAP_01_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
 class B_T_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_Truck_01_mover_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_T_Truck_01_ammo_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_Truck_01_box_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_T_Truck_01_fuel_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_Truck_01_medical_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_T_Truck_01_Repair_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_Truck_01_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_T_Truck_01_covered_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class I_G_Offroad_01_repair_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
+class B_T_Truck_01_mover_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  // 50k/25k             
+class B_T_Truck_01_ammo_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };                
+class B_T_Truck_01_box_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  //50k/25k               
+class B_T_Truck_01_fuel_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };               
+class B_T_Truck_01_medical_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  // Med -- 25/12.5              
+class B_T_Truck_01_Repair_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };              
+class B_T_Truck_01_transport_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  // Transport -- 50k/25k            
+class B_T_Truck_01_covered_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  // Covered -- 25/12.5k              
+class I_G_Offroad_01_repair_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  
 class I_G_Offroad_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
 class I_G_Offroad_01_AT_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class I_G_Offroad_01_armed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
@@ -1666,74 +1693,75 @@ class C_UAV_06_medical_F	                                                     { 
                                                                                 
 // Choppers -- Not Complete                                                                     
                                                                                 
-class B_CTRG_Heli_Transport_01_sand_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_CTRG_Heli_Transport_01_tropic_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Heli_Light_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Heli_Light_01_armed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_Heli_Light_01_dynamicLoadout_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_Heli_Light_01_stripped_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class NonSteerable_Parachute_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };               
-class Steerable_Parachute_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Heli_Attack_01_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_Heli_Attack_01_dynamicLoadout_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Heli_Transport_01_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Heli_Transport_01_camo_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_Parachute_02_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_Heli_Transport_03_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Heli_Transport_03_unarmed_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_Heli_Transport_03_black_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_Heli_Transport_03_unarmed_green_F	                                     { quality = 5; price = 5000000; sellPrice = 250000; };                
-class I_Heli_Transport_02_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Parachute_02_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Heli_light_03_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Heli_light_03_dynamicLoadout_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Heli_light_03_unarmed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Heli_Light_01_civil_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Light_02_dynamicLoadout_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Light_02_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Light_02_unarmed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Light_02_v2_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Attack_02_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Attack_02_black_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Attack_02_dynamicLoadout_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Attack_02_dynamicLoadout_black_F	                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Parachute_02_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_ammo_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_bench_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_box_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_covered_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_fuel_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_medevac_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_repair_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_black_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_ammo_black_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_bench_black_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_box_black_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_covered_black_F	                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_fuel_black_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_medevac_black_F	                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Heli_Transport_04_repair_black_F	                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_Light_01_civil_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_blue_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_red_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_ion_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_blueLine_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_digital_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_elliptical_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_furious_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_graywatcher_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_jeans_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_light_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_shadow_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_sheriff_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_speedy_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_sunset_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_vrana_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_wasp_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_wave_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_stripped_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Heli_light_01_luxe_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
+class B_CTRG_Heli_Transport_01_sand_F	                                         { quality = 5; price = 50000; sellPrice = 25000; }; // UH-80 Ghosthawk -- M134              
+class B_CTRG_Heli_Transport_01_tropic_F	                                         { quality = 5; price = 50000; sellPrice = 25000; }; // UH-80 Ghosthawk -- M134            
+class B_Heli_Light_01_F	                                                         { quality = 5; price = 10000; sellPrice = 5000; }; // MH9 -- Unarmed            
+class B_Heli_Light_01_armed_F	                                                 { quality = 5; price = 75000; sellPrice = 35000; }; // MH9 -- DAR                
+class B_Heli_Light_01_dynamicLoadout_F	                                         { quality = 5; price = 50000; sellPrice = 25000; }; // MH9 -- M134       
+class B_Heli_Light_01_stripped_F	                                             { quality = 5; price = 10000; sellPrice = 5000; }; // MH9 -- Unarmed  
+class B_Heli_Attack_01_F	                                                     { quality = 5; price = 250000; sellPrice = 125000; }; // Blackfoot DAR/ASRAAM/20mm                
+class B_Heli_Attack_01_dynamicLoadout_F	                                         { quality = 5; price = 100000; sellPrice = 250000; }; // Blackfoot 20mm             
+class B_Heli_Transport_01_F	                                                     { quality = 5; price = 25000; sellPrice = 250000; }; // UH-80 Ghosthawk -- M134            
+class B_Heli_Transport_01_camo_F	                                             { quality = 5; price = 25000; sellPrice = 250000; }; // UH-80 Ghosthawk -- M134
+class B_Heli_Transport_03_F	                                                     { quality = 5; price = 25000; sellPrice = 12500; }; // Chinook -- Armed             
+class B_Heli_Transport_03_unarmed_F	                                             { quality = 5; price = 20000; sellPrice = 10000; }; // Chinook -- un-armed             
+class B_Heli_Transport_03_black_F	                                             { quality = 5; price = 25000; sellPrice = 12500; }; // Chinook -- Armed               
+class B_Heli_Transport_03_unarmed_green_F	                                     { quality = 5; price = 20000; sellPrice = 10000; }; // Chinook -- un-armed               
+class I_Heli_Transport_02_F	                                                     { quality = 5; price = 25000; sellPrice = 12500; }; // CH-49 Mohawk -- un-armed
+class I_Heli_light_03_F	                                                         { quality = 5; price = 75000; sellPrice = 250000; }; // Hellcat -- DAR/M134
+class I_Heli_light_03_dynamicLoadout_F	                                         { quality = 5; price = 25000; sellPrice = 12500; }; // Hellcat -- M134
+class I_Heli_light_03_unarmed_F	                                                 { quality = 5; price = 20000; sellPrice = 10000; }; // Hellcat -- un-armed
+class I_C_Heli_Light_01_civil_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M900
+class O_Heli_Light_02_dynamicLoadout_F	                                         { quality = 5; price = 10000; sellPrice = 5000; }; // Orca CHAFF
+class O_Heli_Light_02_unarmed_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // Orca CHAFF
+class O_Heli_Light_02_F	                                                         { quality = 5; price = 50000; sellPrice = 25000; }; // Orca ARMED
+class O_Heli_Light_02_v2_F	                                                     { quality = 5; price = 50000; sellPrice = 25000; }; // Orca ARMED
+class O_Heli_Attack_02_F	                                                     { quality = 5; price = 1000000; sellPrice = 500000; }; // Kajman (30mm + Missile)
+class O_Heli_Attack_02_black_F	                                                 { quality = 5; price = 1000000; sellPrice = 500000; }; // Kajman (30mm + Missile)
+class O_Heli_Attack_02_dynamicLoadout_F	                                         { quality = 5; price = 750000; sellPrice = 375000; }; // Kajman (30mm)
+class O_Heli_Attack_02_dynamicLoadout_black_F	                                 { quality = 5; price = 750000; sellPrice = 375000; }; // Kajman (30mm)
+class O_Heli_Transport_04_F	                                                     { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_ammo_F	                                             { quality = 5; price = 50000; sellPrice = 25000; }; // Taru
+class O_Heli_Transport_04_bench_F	                                             { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_box_F	                                                 { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_covered_F	                                             { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_fuel_F	                                             { quality = 5; price = 50000; sellPrice = 25000; }; // Taru
+class O_Heli_Transport_04_medevac_F	                                             { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_repair_F	                                             { quality = 5; price = 50000; sellPrice = 25000; }; // Taru
+class O_Heli_Transport_04_black_F	                                             { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_ammo_black_F	                                         { quality = 5; price = 50000; sellPrice = 25000; }; // Taru
+class O_Heli_Transport_04_bench_black_F	                                         { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_box_black_F	                                         { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_covered_black_F	                                     { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_fuel_black_F	                                         { quality = 5; price = 50000; sellPrice = 25000; }; // Taru
+class O_Heli_Transport_04_medevac_black_F	                                     { quality = 5; price = 25000; sellPrice = 12500; }; // Taru
+class O_Heli_Transport_04_repair_black_F	                                     { quality = 5; price = 50000; sellPrice = 25000; }; // Taru
+class C_Heli_Light_01_civil_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_blue_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_red_F	                                                     { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_ion_F	                                                     { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_blueLine_F	                                             { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_digital_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_elliptical_F	                                             { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_furious_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_graywatcher_F	                                             { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_jeans_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_light_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_shadow_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_sheriff_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_speedy_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_sunset_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_vrana_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_wasp_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_wave_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_stripped_F	                                             { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+class C_Heli_light_01_luxe_F	                                                 { quality = 5; price = 10000; sellPrice = 5000; }; // M-900
+
+//class I_Parachute_02_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
+//class O_Parachute_02_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; }; 
+//class B_Parachute_02_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
+//class NonSteerable_Parachute_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };      
+//class Steerable_Parachute_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; }; 
                                                                                   
 // Planes -- Not Complete                                                                   
                                                                                  

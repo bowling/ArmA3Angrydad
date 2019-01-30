@@ -154,9 +154,7 @@
 			"CUP_hgun_SA61",  //Sa-61__Assault rifle
 			"CUP_arifle_Mk16_CQC",  //Mk16 CQC__Assault rifle
 			"CUP_arifle_Mk16_CQC_SFG",  //Mk16 CQC (surefire)__Assault rifle
-			"CUP_arifle_Mk16_CQC_EGLM",  //Mk16 CQC EGLM__Assault rifle
-			"CUP_arifle_Mk16_STD",  //Mk16 Standard__Assault rifle
-			"CUP_arifle_Mk16_STD_SFG",  //Mk16 Standard (surefire)__Assault rifle
+			"CUP_arifl le_Mk16_STD_SFG",  //Mk16 Standard (surefire)__Assault rifle
 			"CUP_arifle_Mk16_STD_EGLM",  //Mk16 Standard EGLM__Assault rifle
 			"CUP_arifle_Mk16_SV",  //Mk16 SV__Assault rifle
 			"CUP_arifle_AKS74",  //AKS-74__Assault rifle with grenade launcher
