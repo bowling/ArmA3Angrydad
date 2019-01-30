@@ -723,7 +723,12 @@
 			"CUP_B_SA330_Puma_HC1_BAF",  //SA-330 Puma HC1__Air
 			"CUP_B_SA330_Puma_HC2_BAF",  //SA-330 Puma HC2__Air
 			"CUP_B_UH1Y_UNA_USMC",  //UH-1Y Venom Transport__air
-			"CUP_B_UH1Y_GUNSHIP_USMC"   //UH-1Y Venom Gunship__air
+			"CUP_B_UH1Y_GUNSHIP_USMC",   //UH-1Y Venom Gunship__air
+			"CUP_B_UH1Y_MEV_USMC",  //UH-1Y Venom MEV__Support
+			"CUP_B_Mi24_D_MEV_CDF",  //Mi-24D MEV__Support
+			"CUP_B_Mi17_medevac_CDF",  //Mi-17 (Medevac)__Support
+			"CUP_O_Mi8_medevac_CHDKZ",  //Mi-8AMT (Medevac)__Support
+			"CUP_O_Mi8_medevac_RU"  //Mi-8AMT (Medevac)__Support
 		};
 	};
 
@@ -1169,8 +1174,7 @@
 			"CUP_O_V3S_Refuel_TKM",  //Praga V3S (Refuel)__Support
 			"CUP_O_V3S_Repair_TKM",  //Praga V3S (Repair)__Support
 			"CUP_O_GAZ_Vodnik_MedEvac_RU",  //GAZ Vodnik (Medical)__Support
-			"CUP_O_Mi8_medevac_CHDKZ",  //Mi-8AMT (Medevac)__Support
-			"CUP_O_Mi8_medevac_RU",  //Mi-8AMT (Medevac)__Support
+
 			"CUP_O_M113_Med_TKA",  //M113A3 Ambulance__Support
 			"CUP_B_BMP2_AMB_CDF",  //BMP-2 Ambulance__Support
 			"CUP_B_BMP2_AMB_CZ",  //BMP-2 Ambulance__Support
@@ -1194,13 +1198,10 @@
 			"CUP_B_M1133_MEV_Desert_Slat",  //M1133 MEV (Desert - Slat)__Support
 			"CUP_B_M1133_MEV_Woodland",  //M1133 MEV (Woodland)__Support
 			"CUP_B_M1133_MEV_Woodland_Slat",  //M1133 MEV (Woodland - Slat)__Support
-			"CUP_B_Mi24_D_MEV_CDF",  //Mi-24D MEV__Support
-			"CUP_B_Mi17_medevac_CDF",  //Mi-17 (Medevac)__Support
 			"CUP_B_M113_Med_USA",  //M113A3 Ambulance__Support
 			"CUP_B_HMMWV_Ambulance_USMC",  //HMMWV Ambulance__Support
 			"CUP_B_HMMWV_Ambulance_USA",  //HMMWV Ambulance__Support
-			"CUP_B_HMMWV_Ambulance_ACR",  //HMMWV Ambulance__Support
-			"CUP_B_UH1Y_MEV_USMC"  //UH-1Y Venom MEV__Support
+			"CUP_B_HMMWV_Ambulance_ACR"  //HMMWV Ambulance__Support
 		};
 	};
 	
