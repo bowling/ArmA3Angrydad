@@ -1007,7 +1007,7 @@ class CUP_C_Ural_Open_Civ_03	                                                { q
 class CUP_C_V3S_Open_TKC	                                                    { quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_C_V3S_Covered_TKC	                                                    { quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_C_Datsun	              												{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_M1030                                      							{ quality = 6; price = 500000; sellPrice = 500000; }; // CHANGE THIS POST_TEST
+class CUP_B_M1030                                      							{ quality = 6; price = 50000; sellPrice = 500000; }; // CHANGE THIS POST_TEST
 class CUP_B_Dingo_CZ_Wdl                                        				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_Dingo_CZ_Des                                        				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_Dingo_GL_CZ_Wdl                                     				{ quality = 6; price = 500000; sellPrice = 250000; };
