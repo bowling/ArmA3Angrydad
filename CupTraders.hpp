@@ -462,12 +462,12 @@
 			"CUP_6Rnd_HE_M203_heli",
 			"CUP_Strela_2_M",
 			"CUP_Igla_M",
-			"CUP_2Rnd_Igla_M",
-			"CUP_4Rnd_Igla_M",
-			"CUP_1Rnd_RBS70_M",
+			//"CUP_2Rnd_Igla_M",
+			//"CUP_4Rnd_Igla_M",
+			//"CUP_1Rnd_RBS70_M",
 			"CUP_Stinger_M",
-			"CUP_4Rnd_Stinger_M",
-			"CUP_8Rnd_Stinger_M",
+			//"CUP_4Rnd_Stinger_M",
+			//"CUP_8Rnd_Stinger_M",
 			"CUP_Javelin_M",
 			"CUP_M136_M",
 			"CUP_Dragon_EP1_M",
@@ -484,7 +484,7 @@
 			"CUP_OG7_M",
 			"CUP_SMAW_HEDP_M",
 			"CUP_SMAW_HEAA_M",
-			"CUP_M72A6_M",
+			//"CUP_M72A6_M",
 			"CUP_SMAW_Spotting"
 		};
 	};
