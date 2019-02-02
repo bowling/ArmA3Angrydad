@@ -371,8 +371,8 @@
 	///////////////////////////////////////////////////////////////////////////////
 	// Golf -- Done
 	///////////////////////////////////////////////////////////////////////////////
-	class Exile_Car_Golf_Red							{ quality = 3; price = 1; sellPrice = 500000; }; // CHANGE THIS POST_TEST
-	class Exile_Car_Golf_Black							{ quality = 3; price = 1; sellPrice = 500000; }; // CHANGE THIS POST_TEST
+	class Exile_Car_Golf_Red							{ quality = 3; price = 1; sellPrice = 10000000; }; // CHANGE THIS POST_TEST
+	//class Exile_Car_Golf_Black							{ quality = 3; price = 1; sellPrice = 50000000; }; // Removed from ExileTraders.hpp
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Ikarus -- Done

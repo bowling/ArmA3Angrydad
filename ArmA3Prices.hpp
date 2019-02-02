@@ -42,7 +42,7 @@ class launch_MRAWS_green_F			{ quality = 2; price = 20000, sellPrice = 10000; };
 class launch_MRAWS_olive_rail_F		{ quality = 2; price = 20000, sellPrice = 10000; };
 class launch_MRAWS_olive_F			{ quality = 2; price = 20000, sellPrice = 10000; };
 class MRAWS_HEAT_F					{ quality = 2; price = 2000, sellPrice = 1000; };
-class MRAWS_HE						{ quality = 2; price = 2000, sellPrice = 1000; };
+//class MRAWS_HE						{ quality = 2; price = 2000, sellPrice = 1000; };
 
 /* RPG7V */
 class launch_RPG7_F					{ quality = 2; price = 20000, sellPrice = 10000; }; // RPG7V
@@ -335,7 +335,10 @@ class 30Rnd_45ACP_Mag_SMG_01 												{ quality = 1; price = 4; sellPrice = 2
 class 30Rnd_45ACP_Mag_SMG_01_Tracer_Green 									{ quality = 1; price = 4; sellPrice = 2; }; // Vermin SMG Ammo
 class 30Rnd_45ACP_Mag_SMG_01_Tracer_Yellow									{ quality = 1; price = 4; sellPrice = 2; }; // Vermin SMG Ammo
 class 30Rnd_45ACP_Mag_SMG_01_Tracer_Red										{ quality = 1; price = 4; sellPrice = 2; }; // Vermin SMG Ammo
-
+class 30Rnd_9x21_Mag 														{ quality = 1; price = 4; sellPrice = 2; };
+class 30Rnd_9x21_Yellow_Mag													{ quality = 1; price = 4; sellPrice = 2; };
+class 30Rnd_9x21_Green_Mag													{ quality = 1; price = 4; sellPrice = 2; };
+class 30Rnd_9x21_Red_Mag													{ quality = 1; price = 4; sellPrice = 2; };
 
 // Underwater Gun
 class arifle_SDAR_F                                                                     { quality = 2; price = 500; sellPrice = 250; }; // SDAR

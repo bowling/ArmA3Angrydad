@@ -365,6 +365,7 @@
 			"Exile_Car_QilinUnarmed",
 			"Exile_Car_MB4WD",
 			"Exile_Car_MB4WDOpen"
+			//"Exile_Car_Golf_Black"
 		};
 	};
 

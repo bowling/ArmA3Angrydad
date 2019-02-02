@@ -451,6 +451,7 @@
 			"B_FieldPack_oli",
 			"B_FieldPack_oucamo",
 			"B_FieldPack_oucamo_LAT",
+			"G_FieldPack_LAT",
 			"G_FieldPack_LAT2",
 			"G_FieldPack_Medic",
 			
@@ -641,7 +642,7 @@
 			"B_ViperHarness_hex_M_F",
 			"B_ViperHarness_hex_Medic_F",
 			"B_ViperHarness_hex_TL_F",
-			"G_FieldPack_LAT",			
+						
 			"I_Assault_Diver",
 			"I_Carryall_oli_AAT",
 			"I_Carryall_oli_Eng",
@@ -1386,7 +1387,7 @@
 			"Vorona_HE",
 			"Vorona_HEAT",
 			"MRAWS_HEAT_F",
-			"MRAWS_HE",
+			//"MRAWS_HE",
 			"RPG7_F",
 			"RPG32_HE_F",
 			"RPG32_F",
