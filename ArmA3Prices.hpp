@@ -30,7 +30,7 @@ class NLAW_F						{ quality = 4; price = 10000, sellPrice = 5000; };
 
 /* Vorona */
 class launch_O_Vorona_green_F 		{ quality = 5; price = 70000, sellPrice = 35000; }; // Vorona AT 130mm
-class launch_O_Vorona_brown_F		{ quality = 5; price = 15000, sellPrice = 7500; };
+class launch_O_Vorona_brown_F		{ quality = 5; price = 75000, sellPrice = 7500; }; // Vorona AT 130mm
 class Vorona_HE						{ quality = 5; price = 15000, sellPrice = 7500; };
 class Vorona_HEAT					{ quality = 5; price = 15000, sellPrice = 7500; };
 
@@ -1438,32 +1438,174 @@ class C_Boat_Transport_02_F	                                                    
 class C_Scooter_Transport_01_F	                                                 { quality = 5; price = 5000; sellPrice = 2500; }; // Transport
                                                                                
 // Cars -- Not Complete                                                                       
-                                                                              
+                     
+/* Quads */
+class B_G_Quadbike_01_F	                                                         { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class B_Quadbike_01_F	                                                         { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class B_T_Quadbike_01_F	                                                         { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class C_Quadbike_01_F	                                                         { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class C_Quadbike_01_black_F	                                                     { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class C_Quadbike_01_blue_F	                                                     { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class C_Quadbike_01_red_F	                                                     { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class C_Quadbike_01_white_F	                                                     { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class O_T_Quadbike_01_ghex_F	                                                 { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class O_Quadbike_01_F	                                                         { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class I_Quadbike_01_F	                                                         { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class I_G_Quadbike_01_F	                                                         { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+class O_G_Quadbike_01_F	                                                         { quality = 1; price = 1500; sellPrice = 750; }; // Quad
+
+/* Kart */
+class C_Kart_01_F	                                                             { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+class C_Kart_01_Fuel_F	                                                         { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+class C_Kart_01_Blu_F	                                                         { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+class C_Kart_01_Red_F	                                                         { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+class C_Kart_01_Vrana_F	                                                         { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+class C_Kart_01_green_F	                                                         { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+class C_Kart_01_orange_F	                                                     { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+class C_Kart_01_white_F	                                                         { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+class C_Kart_01_yellow_F	                                                     { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+class C_Kart_01_black_F	                                                         { quality = 1; price = 1000; sellPrice = 500; }; // Kart
+
+/* Hatchbakcs */
+class C_Hatchback_01_F	                                                         { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_sport_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_grey_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_green_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_blue_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_bluecustom_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_beigecustom_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_yellow_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_white_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_black_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_dark_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_sport_red_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_sport_blue_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_sport_orange_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_sport_white_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_sport_grey_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_sport_green_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+
+/* Offroad */
+class C_Offroad_02_unarmed_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_02_unarmed_black_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_02_unarmed_blue_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_02_unarmed_green_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_02_unarmed_orange_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_02_unarmed_red_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_02_unarmed_white_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class I_C_Offroad_02_unarmed_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class I_C_Offroad_02_unarmed_brown_F	                                         { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class I_C_Offroad_02_unarmed_olive_F	                                         { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_01_F	                                                         { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_01_red_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_01_sand_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_01_white_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_01_blue_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_01_darkred_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_01_bluecustom_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_luxe_F	                                                         { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_default_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+class C_Offroad_stripped_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed
+
+/* Repair, Rearm, & Refuel */ 
+class B_T_Truck_01_ammo_F	                                                     { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class B_T_Truck_01_fuel_F	                                                     { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel               
+class B_T_Truck_01_Repair_F	                                                     { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel              
+class B_Truck_01_Repair_F	                                                     { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel       
+class B_G_Van_01_fuel_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel       
+class B_G_Offroad_01_repair_F	                                                 { quality = 3; price = 50000; sellPrice = 25000; }:  // Ammo + Repair + Refuel
+class B_Truck_01_ammo_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel              
+class B_Truck_01_fuel_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel              
+class I_G_Offroad_01_repair_F	                                                 { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel  
+class I_Truck_02_fuel_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class I_G_Van_01_fuel_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class I_Truck_02_ammo_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_Truck_02_Ammo_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_Truck_02_fuel_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_Truck_03_repair_F	                                                     { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_Truck_03_ammo_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_Truck_03_fuel_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_T_Truck_03_repair_ghex_F	                                             { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_T_Truck_03_ammo_ghex_F	                                                 { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_T_Truck_03_fuel_ghex_F	                                                 { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_G_Van_01_fuel_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class C_Offroad_01_repair_F	                                                     { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class C_Van_01_fuel_white_F	                                                     { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class C_Van_01_fuel_red_F	                                                     { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class C_Van_01_fuel_white_v2_F	                                                 { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class C_Van_01_fuel_red_v2_F	                                                 { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class C_Van_01_fuel_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class C_Truck_02_fuel_F	                                                         { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+class O_G_Offroad_01_repair_F	                                                 { quality = 3; price = 50000; sellPrice = 25000; };  // Ammo + Repair + Refuel
+
+/* Mover + Transport + Medical + Box + Covered */
+class B_T_Truck_01_mover_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_Truck_02_medical_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_Truck_03_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_Truck_03_covered_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_Truck_03_medical_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_T_Truck_03_transport_ghex_F	                                             { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_T_Truck_03_covered_ghex_F	                                             { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_T_Truck_03_medical_ghex_F	                                             { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_G_Van_01_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_G_Van_02_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_G_Van_01_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_T_Truck_01_medical_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_T_Truck_01_box_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_T_Truck_01_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_Truck_02_covered_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_Truck_02_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_Truck_02_box_F	                                                         { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_Truck_02_medical_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_C_Van_01_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_C_Van_01_transport_brown_F	                                             { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_C_Van_01_transport_olive_F	                                             { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_G_Van_02_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class I_C_Van_02_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_Truck_02_covered_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_Truck_02_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class O_Truck_02_box_F	                                                         { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Truck_02_box_F	                                                         { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_01_transport_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_01_box_F	                                                         { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_01_transport_white_F	                                             { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_01_transport_red_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_01_box_white_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_01_box_red_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_02_transport_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_02_vehicle_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_02_medevac_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Van_02_service_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_T_Truck_01_covered_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Truck_02_covered_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class C_Truck_02_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_Truck_01_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_Truck_01_covered_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_Truck_01_mover_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_Truck_01_box_F	                                                         { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_Truck_01_medical_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_G_Van_02_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered      
+class B_G_Van_02_vehicle_F	                                                     { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_GEN_Offroad_01_gen_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_GEN_Van_02_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_GEN_Van_02_vehicle_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+class B_G_Van_01_transport_F	                                                 { quality = 1; price = 25000; sellPrice = 12500; }; // Mover + Transport + Medical + Box + Covered
+
+/* Nukes */
+class O_Truck_03_device_F	                                                     { quality = 5; price = 250000; sellPrice = 125000; }; // Nuke
+class O_T_Truck_03_device_ghex_F	                                             { quality = 5; price = 250000; sellPrice = 125000; }; // Nuke
+
+
+
+
+
 class B_CTRG_LSV_01_light_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_G_Offroad_01_repair_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                
 class B_G_Offroad_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };               
 class B_G_Offroad_01_armed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_G_Offroad_01_AT_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_G_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_G_Van_01_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_G_Van_01_fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_G_Van_02_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_G_Van_02_vehicle_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_GEN_Offroad_01_gen_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_GEN_Van_02_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_GEN_Van_02_vehicle_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
+class B_G_Offroad_01_AT_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                             
 class B_MRAP_01_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };                
 class B_MRAP_01_gmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_MRAP_01_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_Truck_01_transport_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  // 50k/25k               
-class B_Truck_01_covered_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  // 25k/12.5k              
-class B_Truck_01_mover_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  // 50k/25k                
-class B_Truck_01_box_F	                                                         { quality = 6; price = 100000; sellPrice = 50000; };  // 50k/25k              
-class B_Truck_01_Repair_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };                
-class B_Truck_01_ammo_F	                                                         { quality = 6; price = 100000; sellPrice = 50000; };              
-class B_Truck_01_fuel_F	                                                         { quality = 6; price = 100000; sellPrice = 50000; };              
-class B_Truck_01_medical_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  // Med -- 25/12.5              
+class B_MRAP_01_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                       
 class B_LSV_01_armed_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };               
 class B_LSV_01_AT_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };              
 class B_LSV_01_unarmed_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                 
@@ -1486,62 +1628,21 @@ class B_T_LSV_01_unarmed_olive_F	                                             { 
 class B_T_LSV_01_unarmed_sand_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };              
 class B_T_MRAP_01_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };              
 class B_T_MRAP_01_gmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_MRAP_01_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_Truck_01_mover_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  // 50k/25k             
-class B_T_Truck_01_ammo_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };                
-class B_T_Truck_01_box_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };  //50k/25k               
-class B_T_Truck_01_fuel_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };               
-class B_T_Truck_01_medical_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  // Med -- 25/12.5              
-class B_T_Truck_01_Repair_F	                                                     { quality = 6; price = 100000; sellPrice = 50000; };              
-class B_T_Truck_01_transport_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  // Transport -- 50k/25k            
-class B_T_Truck_01_covered_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  // Covered -- 25/12.5k              
-class I_G_Offroad_01_repair_F	                                                 { quality = 6; price = 100000; sellPrice = 50000; };  
-class I_G_Offroad_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_G_Offroad_01_AT_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_G_Offroad_01_armed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_G_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_MRAP_03_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_MRAP_03_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_MRAP_03_gmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Truck_02_covered_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Truck_02_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Truck_02_ammo_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Truck_02_box_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Truck_02_medical_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_Truck_02_fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_G_Van_01_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_G_Van_01_fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Offroad_02_unarmed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Offroad_02_unarmed_brown_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Offroad_02_unarmed_olive_F	                                         { quality = 5; price = 5000000; sellPrice = 250000; };
+class B_T_MRAP_01_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };  
+class I_G_Offroad_01_F	                                                         { quality = 2; price = 25000; sellPrice = 12500; };
+class I_G_Offroad_01_AT_F	                                                     { quality = 2; price = 25000; sellPrice = 12500; };
+class I_G_Offroad_01_armed_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; };
+class I_MRAP_03_F	                                                             { quality = 2; price = 25000; sellPrice = 12500; };
+class I_MRAP_03_hmg_F	                                                         { quality = 2; price = 25000; sellPrice = 12500; };
+class I_MRAP_03_gmg_F	                                                         { quality = 2; price = 25000; sellPrice = 12500; };
+
 class I_C_Offroad_02_LMG_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class I_C_Offroad_02_AT_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Van_01_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Van_01_transport_brown_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Van_01_transport_olive_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_G_Van_02_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class I_C_Van_02_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
 class I_G_Van_02_vehicle_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class I_C_Van_02_vehicle_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_MRAP_02_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_MRAP_02_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_MRAP_02_gmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_02_covered_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_02_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_02_box_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_02_medical_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_02_Ammo_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_02_fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_03_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_03_covered_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_03_repair_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_03_ammo_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_03_fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_03_medical_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_Truck_03_device_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_LSV_02_armed_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_LSV_02_armed_viper_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_LSV_02_unarmed_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
@@ -1567,97 +1668,23 @@ class O_T_LSV_02_unarmed_arid_F	                                                
 class O_T_MRAP_02_ghex_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_T_MRAP_02_hmg_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_T_MRAP_02_gmg_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Quadbike_01_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Truck_03_transport_ghex_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Truck_03_covered_ghex_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Truck_03_repair_ghex_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Truck_03_ammo_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Truck_03_fuel_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Truck_03_medical_ghex_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_Truck_03_device_ghex_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_G_Offroad_01_repair_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_G_Offroad_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_G_Offroad_01_armed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_G_Offroad_01_AT_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_G_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_G_Van_01_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_G_Van_01_fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_G_Van_02_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
+
 class O_G_Van_02_vehicle_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_01_repair_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_01_red_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_01_sand_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_01_white_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_01_blue_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_01_darkred_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_01_bluecustom_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_luxe_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_default_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_stripped_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Quadbike_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Quadbike_01_black_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Quadbike_01_blue_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Quadbike_01_red_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Quadbike_01_white_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Truck_02_covered_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Truck_02_transport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_sport_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_grey_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_green_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_blue_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_bluecustom_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_beigecustom_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_yellow_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_white_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_black_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_dark_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_sport_red_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_sport_blue_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_sport_orange_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_sport_white_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_sport_grey_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Hatchback_01_sport_green_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
+
+
+
+
 class C_SUV_01_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
 class SUV_01_base_red_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
 class SUV_01_base_black_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class SUV_01_base_grey_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class SUV_01_base_orange_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Truck_02_fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Truck_02_box_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_transport_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_box_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_transport_white_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_transport_red_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_box_white_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_box_red_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_fuel_white_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_fuel_red_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_fuel_white_v2_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_01_fuel_red_v2_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_Fuel_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_Blu_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_Red_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_Vrana_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_green_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_orange_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_white_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_yellow_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Kart_01_black_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_02_unarmed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_02_unarmed_black_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_02_unarmed_blue_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_02_unarmed_green_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_02_unarmed_orange_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_02_unarmed_red_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Offroad_02_unarmed_white_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_02_transport_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_02_vehicle_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_02_medevac_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class C_Van_02_service_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
+
+
+
                                                                                 
 // Drones -- Not Complete                                                                       
                                                                                 
