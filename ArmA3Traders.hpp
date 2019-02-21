@@ -42,16 +42,16 @@
 			"arifle_TRG21_GL_F",  //TRG-21 EGLM 5.56 mm__Assault Rifle
 			"arifle_ARX_blk_F",  //Type 115 6.5 mm (Black)__Assault Rifle
 			"arifle_ARX_ghex_F",  //Type 115 6.5 mm (Green Hex)__Assault Rifle
-			"arifle_ARX_Viper_F",  //Type 115 6.5 mm (Green Hex)__Assault Rifle
+			//"arifle_ARX_Viper_F",  //Type 115 6.5 mm (Green Hex)__Assault Rifle
 			"arifle_ARX_hex_F",  //Type 115 6.5 mm (Hex)__Assault Rifle
-			"arifle_ARX_Viper_hex_F",  //Type 115 6.5 mm (Hex)__Assault Rifle
+			//"arifle_ARX_Viper_hex_F",  //Type 115 6.5 mm (Hex)__Assault Rifle
 			"srifle_EBR_F",  //Mk18 ABR 7.62 mm__Assault rifle 
 			"srifle_EBR_SOS_F",  //Mk18 ABR 7.62 mm__Assault rifle 
-			"srifle_EBR_DMS_F",  //Mk18 ABR 7.62 mm__Assault rifle 
+			//"srifle_EBR_DMS_F",  //Mk18 ABR 7.62 mm__Assault rifle 
 			"srifle_DMR_01_F",  //Rahim 7.62 mm__Assault rifle 
-			"srifle_DMR_01_SOS_F",  //Rahim 7.62 mm__Assault rifle 
-			"srifle_DMR_01_DMS_F",  //Rahim 7.62 mm__Assault rifle 
-			"srifle_DMR_01_DMS_BI_F",  //Rahim 7.62 mm__Assault rifle 
+			//"srifle_DMR_01_SOS_F",  //Rahim 7.62 mm__Assault rifle 
+			//"srifle_DMR_01_DMS_F",  //Rahim 7.62 mm__Assault rifle 
+			//"srifle_DMR_01_DMS_BI_F",  //Rahim 7.62 mm__Assault rifle 
 			"arifle_TRG20_F",  //TRG-20 5.56 mm__Assault rifle 
 			"arifle_TRG21_F"  //TRG-21 5.56 mm__Assault rifle 
 		};
@@ -64,7 +64,7 @@
 		items[] =
 		{
 			"hgun_Pistol_heavy_01_F",  //4-five .45 ACP__Handgun
-			"hgun_Pistol_heavy_01_MRD_F",  //4-five .45 ACP__Handgun
+			//"hgun_Pistol_heavy_01_MRD_F",  //4-five .45 ACP__Handgun
 			"hgun_ACPC2_F",  //ACP-C2 .45 ACP__Handgun
 			"hgun_P07_F",  //P07 9 mm__Handgun
 			"hgun_P07_khk_F",  //P07 9 mm (Khaki)__Handgun
@@ -106,38 +106,38 @@
 		items[] =
 		{
 			"srifle_DMR_04_F",  //ASP-1 Kir 12.7 mm (Black)__Marksman Rifle
-			"srifle_DMR_04_SOS_F",  //ASP-1 Kir 12.7 mm (Black)__Marksman Rifle
-			"srifle_DMR_04_DMS_F",  //ASP-1 Kir 12.7 mm (Black)__Marksman Rifle
+			//"srifle_DMR_04_SOS_F",  //ASP-1 Kir 12.7 mm (Black)__Marksman Rifle
+			//"srifle_DMR_04_DMS_F",  //ASP-1 Kir 12.7 mm (Black)__Marksman Rifle
 			"srifle_DMR_04_NS_LP_F",  //ASP-1 Kir 12.7 mm (Black)__Marksman Rifle
 			"srifle_DMR_04_Tan_F",  //ASP-1 Kir 12.7 mm (Tan)__Marksman Rifle
 			"srifle_DMR_07_blk_F",  //CMR-76 6.5 mm (Black)__Marksman Rifle
-			"srifle_DMR_07_blk_DMS_F",  //CMR-76 6.5 mm (Black)__Marksman Rifle
+			//"srifle_DMR_07_blk_DMS_F",  //CMR-76 6.5 mm (Black)__Marksman Rifle
 			"srifle_DMR_07_ghex_F",  //CMR-76 6.5 mm (Green Hex)__Marksman Rifle
 			"srifle_DMR_07_hex_F",  //CMR-76 6.5 mm (Hex)__Marksman Rifle
 			"srifle_DMR_05_blk_F",  //Cyrus 9.3 mm (Black)__Marksman Rifle
-			"srifle_DMR_05_SOS_F",  //Cyrus 9.3 mm (Black)__Marksman Rifle
-			"srifle_DMR_05_DMS_F",  //Cyrus 9.3 mm (Black)__Marksman Rifle
-			"srifle_DMR_05_KHS_LP_F",  //Cyrus 9.3 mm (Black)__Marksman Rifle
+			//"srifle_DMR_05_SOS_F",  //Cyrus 9.3 mm (Black)__Marksman Rifle
+			//"srifle_DMR_05_DMS_F",  //Cyrus 9.3 mm (Black)__Marksman Rifle
+			//"srifle_DMR_05_KHS_LP_F",  //Cyrus 9.3 mm (Black)__Marksman Rifle
 			"srifle_DMR_05_hex_F",  //Cyrus 9.3 mm (Hex)__Marksman Rifle
 			"srifle_DMR_05_tan_f",  //Cyrus 9.3 mm (Tan)__Marksman Rifle
 			"srifle_DMR_02_F",  //MAR-10 .338 (Black)__Marksman Rifle
-			"srifle_DMR_02_SOS_F",  //MAR-10 .338 (Black)__Marksman Rifle
-			"srifle_DMR_02_DMS_F",  //MAR-10 .338 (Black)__Marksman Rifle
+			//"srifle_DMR_02_SOS_F",  //MAR-10 .338 (Black)__Marksman Rifle
+			//"srifle_DMR_02_DMS_F",  //MAR-10 .338 (Black)__Marksman Rifle
 			"srifle_DMR_02_camo_F",  //MAR-10 .338 (Camo)__Marksman Rifle
-			"srifle_DMR_02_camo_AMS_LP_F",  //MAR-10 .338 (Camo)__Marksman Rifle
+			//"srifle_DMR_02_camo_AMS_LP_F",  //MAR-10 .338 (Camo)__Marksman Rifle
 			"srifle_DMR_02_sniper_F",  //MAR-10 .338 (Sand)__Marksman Rifle
-			"srifle_DMR_02_sniper_AMS_LP_S_F",  //MAR-10 .338 (Sand)__Marksman Rifle
+			//"srifle_DMR_02_sniper_AMS_LP_S_F",  //MAR-10 .338 (Sand)__Marksman Rifle
 			"srifle_DMR_03_F",  //Mk-I EMR 7.62 mm (Black)__Marksman Rifle
-			"srifle_DMR_03_SOS_F",  //Mk-I EMR 7.62 mm (Black)__Marksman Rifle
-			"srifle_DMR_03_DMS_F",  //Mk-I EMR 7.62 mm (Black)__Marksman Rifle
-			"srifle_DMR_03_AMS_F",  //Mk-I EMR 7.62 mm (Black)__Marksman Rifle
+			//"srifle_DMR_03_SOS_F",  //Mk-I EMR 7.62 mm (Black)__Marksman Rifle
+			//"srifle_DMR_03_DMS_F",  //Mk-I EMR 7.62 mm (Black)__Marksman Rifle
+			//"srifle_DMR_03_AMS_F",  //Mk-I EMR 7.62 mm (Black)__Marksman Rifle
 			"srifle_DMR_03_multicam_F",  //Mk-I EMR 7.62 mm (Camo)__Marksman Rifle
 			"srifle_DMR_03_khaki_F",  //Mk-I EMR 7.62 mm (Khaki)__Marksman Rifle
 			"srifle_DMR_03_tan_F",  //Mk-I EMR 7.62 mm (Sand)__Marksman Rifle
-			"srifle_DMR_03_tan_AMS_LP_F",  //Mk-I EMR 7.62 mm (Sand)__Marksman Rifle
+			//"srifle_DMR_03_tan_AMS_LP_F",  //Mk-I EMR 7.62 mm (Sand)__Marksman Rifle
 			"srifle_DMR_03_woodland_F",  //Mk-I EMR 7.62 mm (Woodland)__Marksman Rifle
 			"srifle_DMR_06_camo_F",  //Mk14 7.62 mm (Camo)__Marksman Rifle
-			"srifle_DMR_06_camo_khs_F",  //Mk14 7.62 mm (Camo)__Marksman Rifle
+			//"srifle_DMR_06_camo_khs_F",  //Mk14 7.62 mm (Camo)__Marksman Rifle
 			"srifle_DMR_06_olive_F",  //Mk14 7.62 mm (Olive)__Marksman Rifle
 			"arifle_MXM_F",  //MXM 6.5 mm__Marksman rifle
 			"arifle_MXM_DMS_F",  //MXM 6.5 mm__Marksman rifle
@@ -151,18 +151,18 @@
 			"srifle_GM6_SOS_F",  //GM6 Lynx 12.7 mm__Sniper Rifle
 			"srifle_GM6_LRPS_F",  //GM6 Lynx 12.7 mm__Sniper Rifle
 			"srifle_GM6_camo_F",  //GM6 Lynx 12.7 mm (Camo)__Sniper Rifle
-			"srifle_GM6_camo_SOS_F",  //GM6 Lynx 12.7 mm (Camo)__Sniper Rifle
-			"srifle_GM6_camo_LRPS_F",  //GM6 Lynx 12.7 mm (Camo)__Sniper Rifle
+			//"srifle_GM6_camo_SOS_F",  //GM6 Lynx 12.7 mm (Camo)__Sniper Rifle
+			//"srifle_GM6_camo_LRPS_F",  //GM6 Lynx 12.7 mm (Camo)__Sniper Rifle
 			"srifle_GM6_ghex_F",  //GM6 Lynx 12.7 mm (Green Hex)__Sniper Rifle
-			"srifle_GM6_ghex_LRPS_F",  //GM6 Lynx 12.7 mm (Green Hex)__Sniper Rifle
+			//"srifle_GM6_ghex_LRPS_F",  //GM6 Lynx 12.7 mm (Green Hex)__Sniper Rifle
 			"srifle_LRR_F",  //M320 LRR .408__Sniper Rifle
 			"srifle_LRR_SOS_F",  //M320 LRR .408__Sniper Rifle
 			"srifle_LRR_LRPS_F",  //M320 LRR .408__Sniper Rifle
 			"srifle_LRR_camo_F",  //M320 LRR .408 (Camo)__Sniper Rifle
-			"srifle_LRR_camo_SOS_F",  //M320 LRR .408 (Camo)__Sniper Rifle
-			"srifle_LRR_camo_LRPS_F",  //M320 LRR .408 (Camo)__Sniper Rifle
+			//"srifle_LRR_camo_SOS_F",  //M320 LRR .408 (Camo)__Sniper Rifle
+			//"srifle_LRR_camo_LRPS_F",  //M320 LRR .408 (Camo)__Sniper Rifle
 			"srifle_LRR_tna_F",  //M320 LRR .408 (Tropic)__Sniper Rifle
-			"srifle_LRR_tna_LRPS_F"  //M320 LRR .408 (Tropic)__Sniper Rifle
+			//"srifle_LRR_tna_LRPS_F"  //M320 LRR .408 (Tropic)__Sniper Rifle
 		};
 	};
 
@@ -175,10 +175,10 @@
 			"MMG_01_hex_F",  //Navid 9.3 mm (Hex)__Medium Machine Gun
 			"MMG_01_tan_F",  //Navid 9.3 mm (Tan)__Medium Machine Gun
 			"MMG_02_black_F",  //SPMG .338 (Black)__Medium Machine Gun
-			"MMG_02_black_RCO_BI_F",  //SPMG .338 (Black)__Medium Machine Gun
+			//"MMG_02_black_RCO_BI_F",  //SPMG .338 (Black)__Medium Machine Gun
 			"MMG_02_camo_F",  //SPMG .338 (MTP)__Medium Machine Gun
 			"MMG_02_sand_F",  //SPMG .338 (Sand)__Medium Machine Gun
-			"MMG_02_sand_RCO_LP_F"  //SPMG .338 (Sand)__Medium Machine Gun
+			//"MMG_02_sand_RCO_LP_F"  //SPMG .338 (Sand)__Medium Machine Gun
 		};
 	};
 	
@@ -450,7 +450,7 @@
 			"B_FieldPack_ocamo",
 			"B_FieldPack_oli",
 			"B_FieldPack_oucamo",
-			"B_FieldPack_oucamo_LAT",
+			//"B_FieldPack_oucamo_LAT",
 			"G_FieldPack_LAT",
 			"G_FieldPack_LAT2",
 			"G_FieldPack_Medic",

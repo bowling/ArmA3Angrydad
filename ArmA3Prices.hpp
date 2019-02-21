@@ -5,6 +5,11 @@
 //Quality 5 = Respect @ L5 (Set by Exile, 20000) DEFAULT
 //Quality 6 = Respect @ L6 (Set by Exile, 25000) DEFAULT
 
+/*
+* Items Listed here can be SOLD - but not always BOUGHT.
+* Check ArmA3Traders.hpp for items that will APPEAR in a TRADER to be BOUGHT
+*/
+
 
 class SMG_03_black                                                                      { quality = 2; price = 2000; sellPrice = 1000; };
 class SMG_03_camo                                                                       { quality = 2; price = 2000; sellPrice = 1000; };
@@ -197,11 +202,11 @@ class 16Rnd_9x21_Mag 														{ quality = 1; price = 2; sellPrice = 1; }; /
 class arifle_Katiba_F                                                                   { quality = 2; price = 750; sellPrice = 375; };
 class arifle_Katiba_C_F                                                                 { quality = 2; price = 750; sellPrice = 375; };
 class arifle_Katiba_GL_F                                                                { quality = 2; price = 750; sellPrice = 375; };
-class arifle_ARX_blk_F                                                                  { quality = 2; price = 750; sellPrice = 375; };
-class arifle_ARX_ghex_F                                                                 { quality = 2; price = 750; sellPrice = 375; };
-class arifle_ARX_Viper_F                                                                { quality = 2; price = 750; sellPrice = 375; };
-class arifle_ARX_hex_F                                                                  { quality = 2; price = 750; sellPrice = 375; };
-class arifle_ARX_Viper_hex_F                                                            { quality = 2; price = 750; sellPrice = 375; };
+class arifle_ARX_blk_F                                                                  { quality = 2; price = 750; sellPrice = 375; }; // Type 115
+class arifle_ARX_ghex_F                                                                 { quality = 2; price = 750; sellPrice = 375; }; // Type 115
+class arifle_ARX_Viper_F                                                                { quality = 2; price = 750; sellPrice = 375; }; // Type 115 ++ MOD
+class arifle_ARX_hex_F                                                                  { quality = 2; price = 750; sellPrice = 375; }; // Type 115
+class arifle_ARX_Viper_hex_F                                                            { quality = 2; price = 750; sellPrice = 375; }; // Type 115 ++ MOD
 class arifle_MX_GL_F                                                                    { quality = 2; price = 750; sellPrice = 375; };
 class arifle_MX_GL_Black_F                                                              { quality = 2; price = 750; sellPrice = 375; };
 class arifle_MX_GL_khk_F                                                                { quality = 2; price = 750; sellPrice = 375; };
@@ -272,9 +277,9 @@ class 10Rnd_127x54_Mag 														{ quality = 2; price = 40; sellPrice = 20; 
 
 // Sniper Rifle --  10Rnd_9.3x64mm (DMR5)
 class srifle_DMR_05_blk_F                                                               { quality = 2; price = 1500; sellPrice = 750; };
-class srifle_DMR_05_SOS_F                                                               { quality = 2; price = 1500; sellPrice = 750; };
-class srifle_DMR_05_DMS_F                                                               { quality = 2; price = 1500; sellPrice = 750; };
-class srifle_DMR_05_KHS_LP_F                                                            { quality = 2; price = 1500; sellPrice = 750; };
+//class srifle_DMR_05_SOS_F                                                               { quality = 2; price = 1500; sellPrice = 750; };  ++ MOD
+//class srifle_DMR_05_DMS_F                                                               { quality = 2; price = 1500; sellPrice = 750; };  ++ MOD
+//class srifle_DMR_05_KHS_LP_F                                                            { quality = 2; price = 1500; sellPrice = 750; };  ++ MOD
 class srifle_DMR_05_hex_F                                                               { quality = 2; price = 1500; sellPrice = 750; };
 class srifle_DMR_05_tan_f                                                               { quality = 2; price = 1500; sellPrice = 750; };
 
@@ -283,9 +288,9 @@ class 10Rnd_93x64_DMR_05_Mag 												{ quality = 2; price = 40; sellPrice = 
 
 // Assault Rifle -- 7.62x54mm (DMR1)
 class srifle_DMR_01_F                                                                   { quality = 2; price = 750; sellPrice = 375; };
-class srifle_DMR_01_SOS_F                                                               { quality = 2; price = 750; sellPrice = 375; };
-class srifle_DMR_01_DMS_F                                                               { quality = 2; price = 750; sellPrice = 375; };
-class srifle_DMR_01_DMS_BI_F                                                            { quality = 2; price = 750; sellPrice = 375; };
+//class srifle_DMR_01_SOS_F                                                               { quality = 2; price = 750; sellPrice = 375; };  ++ MOD
+//class srifle_DMR_01_DMS_F                                                               { quality = 2; price = 750; sellPrice = 375; };  ++ MOD
+//class srifle_DMR_01_DMS_BI_F                                                            { quality = 2; price = 750; sellPrice = 375; };  ++ MOD
 
 class 10Rnd_762x54_Mag 														{ quality = 2; price = 40; sellPrice = 20; }; //Rahim Ammo
 
@@ -308,14 +313,14 @@ class srifle_DMR_06_camo_khs_F                                                  
 class srifle_DMR_06_olive_F                                                             { quality = 3; price = 1000; sellPrice = 500; };
 class srifle_EBR_F                                                                      { quality = 3; price = 1000; sellPrice = 500; };
 class srifle_EBR_SOS_F                                                                  { quality = 3; price = 1000; sellPrice = 500; };
-class srifle_EBR_DMS_F                                                                  { quality = 3; price = 1000; sellPrice = 500; };                       
+class srifle_EBR_DMS_F                                                                  { quality = 3; price = 1000; sellPrice = 500; };                      
 
 class 20Rnd_762x51_Mag 														{ quality = 3; price = 40; sellPrice = 20; }; //Mk18 ABR, Mk-I EMR, Mk14, SPAR-17 Ammo
 
 
 // Sniper Rifle --  20Rnd_6.5x39mm_Cased (DMR7)
 class srifle_DMR_07_blk_F                                                               { quality = 2; price = 1500; sellPrice = 1000; };
-class srifle_DMR_07_blk_DMS_F                                                           { quality = 2; price = 1500; sellPrice = 1000; };
+//class srifle_DMR_07_blk_DMS_F                                                           { quality = 2; price = 1500; sellPrice = 1000; }; ++ MOD
 class srifle_DMR_07_ghex_F                                                              { quality = 2; price = 1500; sellPrice = 1000; };
 class srifle_DMR_07_hex_F                                                               { quality = 2; price = 1500; sellPrice = 1000; };
 
@@ -355,10 +360,10 @@ class 150Rnd_93x64_Mag 														{ quality = 3; price = 150; sellPrice = 75;
 
 // SPMG
 class MMG_02_black_F                                                                    { quality = 2; price = 1500; sellPrice = 750; }; // SPMG
-class MMG_02_black_RCO_BI_F                                                             { quality = 2; price = 1500; sellPrice = 750; }; // SPMG
+//class MMG_02_black_RCO_BI_F                                                             { quality = 2; price = 1500; sellPrice = 750; }; // SPMG ++ MOD
 class MMG_02_camo_F                                                                     { quality = 2; price = 1500; sellPrice = 750; }; // SPMG
 class MMG_02_sand_F                                                                     { quality = 2; price = 1500; sellPrice = 750; }; // SPMG
-class MMG_02_sand_RCO_LP_F                                                              { quality = 2; price = 1500; sellPrice = 750; }; // SPMG
+//class MMG_02_sand_RCO_LP_F                                                              { quality = 2; price = 1500; sellPrice = 750; }; // SPMG ++ MOD
 
 class 130Rnd_338_Mag 														{ quality = 2; price = 150; sellPrice = 75; }; // SPMG Ammo
 
@@ -888,20 +893,20 @@ class V_PlateCarrierSpec_tna_F                                              { qu
 *	Carryall = 160 Units = 1250
 *	Bergen = 240 Units = 2000
 */
-//class C_IDAP_UAV_01_backpack_F                                    				{ quality = 3; price = 0; sellPrice = 20000; };
-//class C_IDAP_UAV_06_antimine_backpack_F                           				{ quality = 3; price = 0; sellPrice = 20000; };
-//class C_IDAP_UAV_06_backpack_F                                    				{ quality = 3; price = 0; sellPrice = 20000; };
-//class C_IDAP_UAV_06_medical_backpack_F                            				{ quality = 3; price = 0; sellPrice = 20000; };
-//class C_UAV_06_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
-//class C_UAV_06_medical_backpack_F                                 				{ quality = 3; price = 0; sellPrice = 20000; };
-//class B_UAV_06_medical_backpack_F                                 				{ quality = 3; price = 0; sellPrice = 20000; };
-//class I_UAV_01_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
-//class I_UAV_06_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
-//class I_UAV_06_medical_backpack_F                                 				{ quality = 3; price = 0; sellPrice = 20000; };
-//class O_Assault_Diver                                             				{ quality = 3; price = 0; sellPrice = 20000; };
-//class O_UAV_01_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
-//class O_UAV_06_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
-//class O_UAV_06_medical_backpack_F                                 				{ quality = 3; price = 0; sellPrice = 20000; };
+class C_IDAP_UAV_01_backpack_F                                    				{ quality = 3; price = 0; sellPrice = 20000; };
+class C_IDAP_UAV_06_antimine_backpack_F                           				{ quality = 3; price = 0; sellPrice = 20000; };
+class C_IDAP_UAV_06_backpack_F                                    				{ quality = 3; price = 0; sellPrice = 20000; };
+lcass C_IDAP_UAV_06_medical_backpack_F                            				{ quality = 3; price = 0; sellPrice = 20000; };
+class C_UAV_06_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
+class C_UAV_06_medical_backpack_F                                 				{ quality = 3; price = 0; sellPrice = 20000; };
+class B_UAV_06_medical_backpack_F                                 				{ quality = 3; price = 0; sellPrice = 20000; };
+class I_UAV_01_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
+class I_UAV_06_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
+class I_UAV_06_medical_backpack_F                                 				{ quality = 3; price = 0; sellPrice = 20000; };
+class O_Assault_Diver                                             				{ quality = 3; price = 0; sellPrice = 20000; };
+class O_UAV_01_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
+class O_UAV_06_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; };
+class O_UAV_06_medical_backpack_F                                 				{ quality = 3; price = 0; sellPrice = 20000; };
 class B_AA_01_weapon_F                                     		       			{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
 class B_GMG_01_A_weapon_F                                         				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
 class B_GMG_01_high_weapon_F                                      				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
@@ -944,6 +949,28 @@ class O_HMG_01_weapon_F                                           				{ quality 
 class O_Mortar_01_support_F                                       				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
 class O_Mortar_01_weapon_F                                        				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
 class O_Static_Designator_02_weapon_F                             				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Patrol_Launcher_bag_F                                     				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Patrol_Leader_bag_F                                       				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Patrol_Medic_bag_F                                        				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Patrol_Respawn_bag_F                                      				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Patrol_Supply_bag_F                                       				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_B_Parachute_02_F                                          				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_HuntingBackpack                                           				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_I_Parachute_02_F                                          				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_O_Parachute_02_F                                          				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_OutdoorPack_blk                                           				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_OutdoorPack_blu                                           				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_OutdoorPack_tan                                           				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Parachute                                                 				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Respawn_Sleeping_bag_blue_F                               				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Respawn_Sleeping_bag_brown_F                              				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Respawn_Sleeping_bag_F                                    				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Respawn_TentA_F                                           				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Respawn_TentDome_F                                        				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_Static_Designator_01_weapon_F                             				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_UAV_01_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+class B_UAV_06_backpack_F                                         				{ quality = 3; price = 0; sellPrice = 20000; }; // SW; MAX_INT
+
 class B_LegStrapBag_black_F                                       				{ quality = 1; price = 250; sellPrice = 125; }; // LS
 //class B_LegStrapBag_black_repair_F                                				{ quality = 1; price = 250; sellPrice = 125; }; // LS
 class B_LegStrapBag_coyote_F                                      				{ quality = 1; price = 250; sellPrice = 125; }; // LS
@@ -1067,7 +1094,8 @@ class B_Kitbag_cbr                                                				{ quality 
 class B_Kitbag_mcamo                                              				{ quality = 1; price = 1150; sellPrice = 575; }; // KB
 //class B_Kitbag_mcamo_Eng                                          				{ quality = 1; price = 1150; sellPrice = 575; }; // KB
 class B_Kitbag_rgr                                                				{ quality = 1; price = 1150; sellPrice = 575; }; // KB
-//class B_Kitbag_rgr_AAR                                            				{ quality = 1; price = 1150; sellPrice = 575; }; // KBclass B_Kitbag_rgr_BTAA_F                                         				{ quality = 1; price = 1150; sellPrice = 575; }; // KB
+//class B_Kitbag_rgr_AAR                                            				{ quality = 1; price = 1150; sellPrice = 575; }; // KB
+class B_Kitbag_rgr_BTAA_F                                         				{ quality = 1; price = 1150; sellPrice = 575; }; // KB
 //class B_Kitbag_rgr_BTAT_F                                         				{ quality = 1; price = 1150; sellPrice = 575; }; // KB
 //class B_Kitbag_rgr_BTEng_F                                        				{ quality = 1; price = 1150; sellPrice = 575; }; // KB
 //class B_Kitbag_rgr_BTExp_F                                        				{ quality = 1; price = 1150; sellPrice = 575; }; // KB
@@ -1163,29 +1191,7 @@ class SN_ocamo                                                    				{ quality 
 class SN_oli                                                      				{ quality = 2; price = 4000; sellPrice = 2000; };
 class SN_oucamo                                                   				{ quality = 2; price = 4000; sellPrice = 2000; };
 class YD_carryall_black                                           				{ quality = 2; price = 4000; sellPrice = 2000; };
-/* Unknown Bags
-class B_Patrol_Launcher_bag_F                                     				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Patrol_Leader_bag_F                                       				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Patrol_Medic_bag_F                                        				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Patrol_Respawn_bag_F                                      				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Patrol_Supply_bag_F                                       				{ quality = 1; price = 250; sellPrice = 125; };
-class B_B_Parachute_02_F                                          				{ quality = 1; price = 250; sellPrice = 125; };
-class B_HuntingBackpack                                           				{ quality = 1; price = 250; sellPrice = 125; };
-class B_I_Parachute_02_F                                          				{ quality = 1; price = 250; sellPrice = 125; };
-class B_O_Parachute_02_F                                          				{ quality = 1; price = 250; sellPrice = 125; };
-class B_OutdoorPack_blk                                           				{ quality = 1; price = 250; sellPrice = 125; };
-class B_OutdoorPack_blu                                           				{ quality = 1; price = 250; sellPrice = 125; };
-class B_OutdoorPack_tan                                           				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Parachute                                                 				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Respawn_Sleeping_bag_blue_F                               				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Respawn_Sleeping_bag_brown_F                              				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Respawn_Sleeping_bag_F                                    				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Respawn_TentA_F                                           				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Respawn_TentDome_F                                        				{ quality = 1; price = 250; sellPrice = 125; };
-class B_Static_Designator_01_weapon_F                             				{ quality = 1; price = 250; sellPrice = 125; };
-class B_UAV_01_backpack_F                                         				{ quality = 1; price = 250; sellPrice = 125; };
-class B_UAV_06_backpack_F                                         				{ quality = 1; price = 250; sellPrice = 125; };
-*/
+
 
 // Items - Partially Complete
 /*
@@ -1245,8 +1251,8 @@ class optic_Nightstalker                                                        
 class optic_NVS                                                                 { quality = 1; price = 300; sellPrice = 150; };
 class optic_tws                                                                 { quality = 1; price = 300; sellPrice = 150; };
 class optic_tws_mg                                                              { quality = 1; price = 350; sellPrice = 175; };
-//class FirstAidKit                                                               { quality = 1; price = 0; sellPrice = 1500; }; // NFI
-//class Medikit                                                                   { quality = 1; price = 0; sellprice = 1500; }; // NFI
+class FirstAidKit                                                               { quality = 1; price = 0; sellPrice = 1500; }; // NFI
+class Medikit                                                                   { quality = 1; price = 0; sellprice = 1500; }; // NFI
 class acc_flashlight															{ quality = 1; price = 30; sellPrice = 15; };
 class acc_flashlight_pistol                                                     { quality = 1; price = 30; sellPrice = 15; };
 class acc_flashlight_smg_01                                                     { quality = 1; price = 30; sellPrice = 15; };
