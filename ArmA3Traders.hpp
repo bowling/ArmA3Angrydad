@@ -46,7 +46,7 @@
 			"arifle_ARX_hex_F",  //Type 115 6.5 mm (Hex)__Assault Rifle
 			//"arifle_ARX_Viper_hex_F",  //Type 115 6.5 mm (Hex)__Assault Rifle
 			"srifle_EBR_F",  //Mk18 ABR 7.62 mm__Assault rifle 
-			"srifle_EBR_SOS_F",  //Mk18 ABR 7.62 mm__Assault rifle 
+			//"srifle_EBR_SOS_F",  //Mk18 ABR 7.62 mm__Assault rifle 
 			//"srifle_EBR_DMS_F",  //Mk18 ABR 7.62 mm__Assault rifle 
 			"srifle_DMR_01_F",  //Rahim 7.62 mm__Assault rifle 
 			//"srifle_DMR_01_SOS_F",  //Rahim 7.62 mm__Assault rifle 
