@@ -1331,7 +1331,7 @@ class CUP_I_SUV_Armored_ION                                     				{ quality = 
 // Ship				
 				
 class CUP_B_Zodiac_USMC                                							{ quality = 6; price = 500000; sellPrice = 250000; };
-class CUP_B_RHIB_USMC                                           				{ quality = 6; price = 500000; sellPrice = 250000; };
+class CUP_B_RHIB_USMC                                           				{ quality = 1; price = 1500; sellPrice = 750; };
 class CUP_B_RHIB2Turret_USMC                                    				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_B_Frigate_ANZAC                                       				{ quality = 6; price = 500000; sellPrice = 250000; };
 class CUP_O_PBX_RU                                         						{ quality = 6; price = 500000; sellPrice = 250000; };
