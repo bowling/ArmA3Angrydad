@@ -179,7 +179,7 @@ class 150Rnd_556x45_Drum_Mag_Tracer_F           							{ quality = 1; price = 10
 
 
 // Handgun  + Ammo                                   
-class hgun_Pistol_heavy_01_F                                                            { quality = 1; price = 50; sellPrice = 25; };
+class hgun_Pistol_heavy_01_F                                                            { quality = 1; price = 50; sellPrice = 25; };  //
 class hgun_Pistol_heavy_01_MRD_F                                                        { quality = 1; price = 50; sellPrice = 25; };
 class hgun_ACPC2_F                                                                      { quality = 1; price = 50; sellPrice = 25; };
 class hgun_P07_F                                                                        { quality = 1; price = 50; sellPrice = 25; };

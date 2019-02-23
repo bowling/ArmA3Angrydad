@@ -140,7 +140,7 @@
 			//"srifle_DMR_06_camo_khs_F",  //Mk14 7.62 mm (Camo)__Marksman Rifle
 			"srifle_DMR_06_olive_F",  //Mk14 7.62 mm (Olive)__Marksman Rifle
 			"arifle_MXM_F",  //MXM 6.5 mm__Marksman rifle
-			"arifle_MXM_DMS_F",  //MXM 6.5 mm__Marksman rifle
+			//"arifle_MXM_DMS_F",  //MXM 6.5 mm__Marksman rifle
 			"arifle_MXM_Hamr_LP_BI_F",  //MXM 6.5 mm__Marksman rifle
 			"arifle_MXM_Black_F",  //MXM 6.5 mm (Black)__Marksman rifle
 			"arifle_MXM_khk_F",  //MXM 6.5 mm (Khaki)__Marksman rifle
@@ -148,16 +148,16 @@
 			"arifle_SPAR_03_khk_F",  //SPAR-17 7.62 mm (Khaki)__Marksman rifle
 			"arifle_SPAR_03_snd_F",  //SPAR-17 7.62 mm (Sand)__Marksman rifle
 			"srifle_GM6_F",  //GM6 Lynx 12.7 mm__Sniper Rifle
-			"srifle_GM6_SOS_F",  //GM6 Lynx 12.7 mm__Sniper Rifle
-			"srifle_GM6_LRPS_F",  //GM6 Lynx 12.7 mm__Sniper Rifle
+			//"srifle_GM6_SOS_F",  //GM6 Lynx 12.7 mm__Sniper Rifle
+			//"srifle_GM6_LRPS_F",  //GM6 Lynx 12.7 mm__Sniper Rifle
 			"srifle_GM6_camo_F",  //GM6 Lynx 12.7 mm (Camo)__Sniper Rifle
 			//"srifle_GM6_camo_SOS_F",  //GM6 Lynx 12.7 mm (Camo)__Sniper Rifle
 			//"srifle_GM6_camo_LRPS_F",  //GM6 Lynx 12.7 mm (Camo)__Sniper Rifle
 			"srifle_GM6_ghex_F",  //GM6 Lynx 12.7 mm (Green Hex)__Sniper Rifle
 			//"srifle_GM6_ghex_LRPS_F",  //GM6 Lynx 12.7 mm (Green Hex)__Sniper Rifle
 			"srifle_LRR_F",  //M320 LRR .408__Sniper Rifle
-			"srifle_LRR_SOS_F",  //M320 LRR .408__Sniper Rifle
-			"srifle_LRR_LRPS_F",  //M320 LRR .408__Sniper Rifle
+			//"srifle_LRR_SOS_F",  //M320 LRR .408__Sniper Rifle
+			//"srifle_LRR_LRPS_F",  //M320 LRR .408__Sniper Rifle
 			"srifle_LRR_camo_F",  //M320 LRR .408 (Camo)__Sniper Rifle
 			//"srifle_LRR_camo_SOS_F",  //M320 LRR .408 (Camo)__Sniper Rifle
 			//"srifle_LRR_camo_LRPS_F",  //M320 LRR .408 (Camo)__Sniper Rifle
