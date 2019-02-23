@@ -1601,93 +1601,95 @@ class B_G_Van_01_transport_F	                                                 { 
 class O_Truck_03_device_F	                                                     { quality = 5; price = 250000; sellPrice = 125000; }; // Nuke
 class O_T_Truck_03_device_ghex_F	                                             { quality = 5; price = 250000; sellPrice = 125000; }; // Nuke
 
+/* LSV 01 Unarmed */
+class B_T_LSV_01_unarmed_F	                                                     { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA               
+class B_T_LSV_01_unarmed_CTRG_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA 
+class B_T_LSV_01_unarmed_black_F	                                             { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA      
+class B_T_LSV_01_unarmed_olive_F	                                             { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA                 
+class B_T_LSV_01_unarmed_sand_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA   
+class B_LSV_01_unarmed_F	                                                     { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA 
+class B_LSV_01_unarmed_black_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA               
+class B_LSV_01_unarmed_olive_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA               
+class B_LSV_01_unarmed_sand_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA  
+class O_LSV_02_unarmed_black_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
+class O_LSV_02_unarmed_ghex_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
+class O_LSV_02_unarmed_arid_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
+class O_LSV_02_unarmed_F	                                                     { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
+class O_LSV_02_unarmed_viper_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
+class O_T_LSV_02_unarmed_black_F	                                             { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
+class O_T_LSV_02_unarmed_ghex_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
+class O_T_LSV_02_unarmed_arid_F	                                                 { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
+class O_T_LSV_02_unarmed_F	                                                     { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
+class O_T_LSV_02_unarmed_viper_F	                                             { quality = 1; price = 10000; sellPrice = 5000; }; // LSV01UA
 
+/* LSV 01/02 Armed */
+class B_LSV_01_armed_black_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF                 
+class B_LSV_01_armed_olive_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF                 
+class B_LSV_01_armed_sand_F	                                                     { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF              
+class B_T_LSV_01_armed_F	                                                     { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF 
+class B_T_LSV_01_armed_CTRG_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF                          
+class B_T_LSV_01_armed_black_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF               
+class B_T_LSV_01_armed_olive_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF               
+class B_T_LSV_01_armed_sand_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF 
+class B_G_Offroad_01_armed_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF 
+class B_LSV_01_armed_F	                                                         { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF  
+class I_G_Offroad_01_armed_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_LSV_02_armed_black_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_LSV_02_armed_ghex_F	                                                     { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_LSV_02_armed_arid_F	                                                     { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_T_LSV_02_armed_F	                                                     { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_T_LSV_02_armed_viper_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_LSV_02_armed_F	                                                         { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_LSV_02_armed_viper_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_G_Offroad_01_armed_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_T_LSV_02_armed_black_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_T_LSV_02_armed_ghex_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+class O_T_LSV_02_armed_arid_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; }; // Armed LSV OF
+
+/* GMG + HMG */
+class B_T_MRAP_01_gmg_F	                                                         { quality = 5; price = 75000; sellPrice = 37500; }; // GMG       
+class B_MRAP_01_gmg_F	                                                         { quality = 5; price = 75000; sellPrice = 37500; }; // GMG    
+class I_MRAP_03_gmg_F	                                                         { quality = 2; price = 25000; sellPrice = 12500; }; // GMG
+class O_MRAP_02_gmg_F	                                                         { quality = 5; price = 75000; sellPrice = 37500; }; // GMG
+class O_T_MRAP_02_gmg_ghex_F	                                                 { quality = 5; price = 75000; sellPrice = 37500; }; // GMG
+
+class I_MRAP_03_hmg_F	                                                         { quality = 2; price = 50000; sellPrice = 25000; }; // HMG
+class O_MRAP_02_hmg_F	                                                         { quality = 5; price = 50000; sellPrice = 25000; }; // HMG
+class B_T_MRAP_01_hmg_F	                                                         { quality = 5; price = 50000; sellPrice = 25000; }; // HMG
+class B_MRAP_01_hmg_F	                                                         { quality = 5; price = 50000; sellPrice = 25000; }; // HMG  
+class O_T_MRAP_02_hmg_ghex_F	                                                 { quality = 5; price = 50000; sellPrice = 25000; }; // HMG
+
+/* SUV */
+class C_SUV_01_F	                                                             { quality = 1; price = 15000; sellPrice = 7500; };
+class SUV_01_base_red_F	                                                         { quality = 1; price = 15000; sellPrice = 7500; };
+class SUV_01_base_black_F	                                                     { quality = 1; price = 15000; sellPrice = 7500; };
+class SUV_01_base_grey_F	                                                     { quality = 1; price = 15000; sellPrice = 7500; };
+class SUV_01_base_orange_F	                                                     { quality = 1; price = 15000; sellPrice = 7500; };
 
 
 
 class B_CTRG_LSV_01_light_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_G_Offroad_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_G_Offroad_01_armed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
+class B_G_Offroad_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                 
 class B_G_Offroad_01_AT_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                             
 class B_MRAP_01_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_MRAP_01_gmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_MRAP_01_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                       
-class B_LSV_01_armed_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };               
 class B_LSV_01_AT_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_LSV_01_unarmed_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_LSV_01_armed_black_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_LSV_01_armed_olive_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_LSV_01_armed_sand_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_LSV_01_unarmed_black_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_LSV_01_unarmed_olive_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_LSV_01_unarmed_sand_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_LSV_01_armed_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };                 
 class B_T_LSV_01_AT_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_LSV_01_armed_CTRG_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_LSV_01_unarmed_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_T_LSV_01_unarmed_CTRG_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_LSV_01_armed_black_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_T_LSV_01_armed_olive_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };               
-class B_T_LSV_01_armed_sand_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };                
-class B_T_LSV_01_unarmed_black_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_T_LSV_01_unarmed_olive_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };                 
-class B_T_LSV_01_unarmed_sand_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_MRAP_01_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_MRAP_01_gmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };              
-class B_T_MRAP_01_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };  
+class B_T_MRAP_01_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };     
 class I_G_Offroad_01_F	                                                         { quality = 2; price = 25000; sellPrice = 12500; };
 class I_G_Offroad_01_AT_F	                                                     { quality = 2; price = 25000; sellPrice = 12500; };
-class I_G_Offroad_01_armed_F	                                                 { quality = 2; price = 25000; sellPrice = 12500; };
-class I_MRAP_03_F	                                                             { quality = 2; price = 25000; sellPrice = 12500; };
-class I_MRAP_03_hmg_F	                                                         { quality = 2; price = 25000; sellPrice = 12500; };
-class I_MRAP_03_gmg_F	                                                         { quality = 2; price = 25000; sellPrice = 12500; };
-
+class I_MRAP_03_F	                                                             { quality = 2; price = 25000; sellPrice = 12500; }; // Unarmed
 class I_C_Offroad_02_LMG_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class I_C_Offroad_02_AT_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class I_G_Van_02_vehicle_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class I_C_Van_02_vehicle_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_MRAP_02_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_MRAP_02_hmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_MRAP_02_gmg_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_armed_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_armed_viper_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_unarmed_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_LSV_02_AT_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_unarmed_viper_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_armed_black_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_armed_ghex_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_armed_arid_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_unarmed_black_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_unarmed_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_LSV_02_unarmed_arid_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_armed_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_armed_viper_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_unarmed_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_T_LSV_02_AT_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_unarmed_viper_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_armed_black_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_armed_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_armed_arid_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_unarmed_black_F	                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_unarmed_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_LSV_02_unarmed_arid_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_T_MRAP_02_ghex_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_MRAP_02_hmg_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_T_MRAP_02_gmg_ghex_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_G_Offroad_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_G_Offroad_01_armed_F	                                                 { quality = 5; price = 5000000; sellPrice = 250000; };
-class O_G_Offroad_01_AT_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
+class O_G_Offroad_01_AT_F	                                                     { quality = 5; price = 15000; sellPrice = 7500; };
+class O_G_Van_02_vehicle_F	                                                     { quality = 5; price = 15000; sellPrice = 7500; };
 
-class O_G_Van_02_vehicle_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-
-
-
-
-class C_SUV_01_F	                                                             { quality = 5; price = 5000000; sellPrice = 250000; };
-class SUV_01_base_red_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
-class SUV_01_base_black_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class SUV_01_base_grey_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
-class SUV_01_base_orange_F	                                                     { quality = 5; price = 5000000; sellPrice = 250000; };
 
 
 
@@ -1899,7 +1901,7 @@ class O_Radar_System_02_F	                                                     {
 class O_SAM_System_04_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
 class O_G_Mortar_01_F	                                                         { quality = 5; price = 5000000; sellPrice = 250000; };
 
-// Explosives -- Complete?
+// Explosives -- Complete
 
 class HandGrenade																 { quality = 2; price = 100; };
 class MiniGrenade																 { quality = 2; price = 75; };
