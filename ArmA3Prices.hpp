@@ -1484,12 +1484,12 @@ class C_Hatchback_01_yellow_F	                                                 {
 class C_Hatchback_01_white_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
 class C_Hatchback_01_black_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
 class C_Hatchback_01_dark_F	                                                     { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
-class C_Hatchback_01_sport_red_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
-class C_Hatchback_01_sport_blue_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
-class C_Hatchback_01_sport_orange_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
-class C_Hatchback_01_sport_white_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
-class C_Hatchback_01_sport_grey_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
-class C_Hatchback_01_sport_green_F	                                             { quality = 1; price = 5000; sellPrice = 2500; }; // Hatchback
+class C_Hatchback_01_sport_red_F	                                             { quality = 1; price = 7500; sellPrice = 3750; }; // Hatchback
+class C_Hatchback_01_sport_blue_F	                                             { quality = 1; price = 7500; sellPrice = 3750; }; // Hatchback
+class C_Hatchback_01_sport_orange_F	                                             { quality = 1; price = 7500; sellPrice = 3750; }; // Hatchback
+class C_Hatchback_01_sport_white_F	                                             { quality = 1; price = 7500; sellPrice = 3750; }; // Hatchback
+class C_Hatchback_01_sport_grey_F	                                             { quality = 1; price = 7500; sellPrice = 3750; }; // Hatchback
+class C_Hatchback_01_sport_green_F	                                             { quality = 1; price = 7500; sellPrice = 3750; }; // Hatchback
 
 /* Offroad */
 class C_Offroad_02_unarmed_F	                                                 { quality = 1; price = 5000; sellPrice = 2500; }; // Offroad Unarmed

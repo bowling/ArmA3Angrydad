@@ -679,13 +679,13 @@ class CUP_B_UH60L_Unarmed_FFV_MEV_US                            				{ quality = 
 
 /* Mi24 -- Done */
 class CUP_B_Mi24_D_MEV_CDF                                      				{ quality = 2; price = 50000; sellPrice = 25000; }; // Mi24 Unarmed
-class CUP_B_Mi24_D_CDF                                          				{ quality = 2; price = 50000; sellPrice = 25000; }; // Mi24 Unarmed
-class CUP_O_Mi24_P_RU                                           				{ quality = 2; price = 50000; sellPrice = 25000; }; // Mi24 Unarmed
-class CUP_O_Mi24_V_RU                                           				{ quality = 2; price = 50000; sellPrice = 25000; }; // Mi24 Unarmed
-class CUP_O_Mi24_D_TK                                           				{ quality = 2; price = 50000; sellPrice = 25000; }; // Mi24 Unarmed
-class CUP_I_Mi24_D_UN                                           				{ quality = 2; price = 50000; sellPrice = 25000; }; // Mi24 Unarmed
-class CUP_I_Mi24_D_AAF                                          				{ quality = 2; price = 50000; sellPrice = 25000; }; // Mi24 Unarmed
-class CUP_I_Mi24_D_ION                                          				{ quality = 2; price = 50000; sellPrice = 25000; }; // Mi24 Unarmed
+class CUP_B_Mi24_D_CDF                                          				{ quality = 2; price = 500000; sellPrice = 250000; }; // Mi24 Unarmed
+class CUP_O_Mi24_P_RU                                           				{ quality = 2; price = 500000; sellPrice = 250000; }; // Mi24 Unarmed
+class CUP_O_Mi24_V_RU                                           				{ quality = 2; price = 500000; sellPrice = 250000; }; // Mi24 Unarmed
+class CUP_O_Mi24_D_TK                                           				{ quality = 2; price = 500000; sellPrice = 250000; }; // Mi24 Unarmed
+class CUP_I_Mi24_D_UN                                           				{ quality = 2; price = 500000; sellPrice = 250000; }; // Mi24 Unarmed
+class CUP_I_Mi24_D_AAF                                          				{ quality = 2; price = 500000; sellPrice = 250000; }; // Mi24 Unarmed
+class CUP_I_Mi24_D_ION                                          				{ quality = 2; price = 500000; sellPrice = 250000; }; // Mi24 Unarmed
 class CUP_I_Mi24_Mk3_AAF                                        				{ quality = 6; price = 850000; sellPrice = 425000; }; // Mi24 Armed
 class CUP_I_Mi24_Mk4_AAF                                        				{ quality = 6; price = 850000; sellPrice = 425000; }; // Mi24 Armed
 class CUP_I_Mi24_Mk3_AT_AAF                                     				{ quality = 6; price = 850000; sellPrice = 425000; }; // Mi24 Armed
